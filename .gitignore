@@ -6,3 +6,10 @@ __pycache__/
 .DS_Store?
 doc-processing-pipeline/.env
 qna-pipeline/.env
+
+# Per-run Modus QnA traces written by the Chainlit observer
+Agent-Traces/*.json
+
+# Chainlit local files
+.chainlit/
+.files/
