@@ -1,0 +1,255 @@
+{
+  "_id": {
+    "$oid": "6a030a969e0f57fcdfebe4d2"
+  },
+  "doc_id": "ICICI Bank Report",
+  "section_name": "Corporate Information",
+  "chapter_name": "INTEGRATED REPORT",
+  "contradictions": [],
+  "decisions": [
+    {
+      "text": "Girish Chandra Chaturvedi's tenure as Non-Executive (part-time) Chairman concluded on June 30, 2024.",
+      "decision_type": "governance",
+      "actors": [
+        "ICICI Bank"
+      ],
+      "affected_entities": [
+        "Girish Chandra Chaturvedi"
+      ],
+      "effective_date": "June 30, 2024",
+      "supporting_quote": "Girish Chandra Chaturvedi Non-Executive (part-time) Chairman* ... * Up to June 30, 2024"
+    },
+    {
+      "text": "Pradeep Kumar Sinha was appointed as Non-Executive (part-time) Chairman with effect from July 1, 2024.",
+      "decision_type": "appointment",
+      "actors": [
+        "ICICI Bank"
+      ],
+      "affected_entities": [
+        "Pradeep Kumar Sinha"
+      ],
+      "effective_date": "July 1, 2024",
+      "supporting_quote": "Pradeep Kumar Sinha Non-Executive (part-time) Chairman** ... ** With effect from July 1, 2024"
+    },
+    {
+      "text": "Rohit Bhasin was appointed as an Independent Director with effect from July 26, 2024.",
+      "decision_type": "appointment",
+      "actors": [
+        "ICICI Bank"
+      ],
+      "affected_entities": [
+        "Rohit Bhasin"
+      ],
+      "effective_date": "July 26, 2024",
+      "supporting_quote": "Rohit Bhasin Independent Director*** ... *** With effect from July 26, 2024"
+    }
+  ],
+  "has_figure": true,
+  "has_table": false,
+  "key_claims": [
+    {
+      "text": "Pradeep Kumar Sinha assumed the role of Non-Executive (part-time) Chairman effective July 1, 2024, succeeding Girish Chandra Chaturvedi.",
+      "claim_type": "governance_position",
+      "entity_refs": [
+        "Pradeep Kumar Sinha",
+        "Girish Chandra Chaturvedi",
+        "ICICI Bank"
+      ],
+      "polarity": "neutral",
+      "temporal_scope": "July 1, 2024",
+      "supporting_quote": "Pradeep Kumar Sinha Non-Executive (part-time) Chairman** ... ** With effect from July 1, 2024",
+      "confidence": "high"
+    },
+    {
+      "text": "Girish Chandra Chaturvedi served as Non-Executive (part-time) Chairman up to June 30, 2024.",
+      "claim_type": "governance_position",
+      "entity_refs": [
+        "Girish Chandra Chaturvedi",
+        "ICICI Bank"
+      ],
+      "polarity": "neutral",
+      "temporal_scope": "historical",
+      "supporting_quote": "Girish Chandra Chaturvedi Non-Executive (part-time) Chairman* ... * Up to June 30, 2024",
+      "confidence": "high"
+    },
+    {
+      "text": "Rohit Bhasin was appointed as an Independent Director effective July 26, 2024.",
+      "claim_type": "governance_position",
+      "entity_refs": [
+        "Rohit Bhasin",
+        "ICICI Bank"
+      ],
+      "polarity": "neutral",
+      "temporal_scope": "July 26, 2024",
+      "supporting_quote": "Rohit Bhasin Independent Director*** ... *** With effect from July 26, 2024",
+      "confidence": "high"
+    },
+    {
+      "text": "The Board Committees composition is stated as of July 27, 2024.",
+      "claim_type": "historical_fact",
+      "entity_refs": [
+        "ICICI Bank"
+      ],
+      "polarity": "neutral",
+      "temporal_scope": "July 27, 2024",
+      "supporting_quote": "As on July 27, 2024",
+      "confidence": "high"
+    }
+  ],
+  "key_entities": [
+    {
+      "name": "ICICI Bank",
+      "aliases": [
+        "the Bank"
+      ],
+      "type": "organization",
+      "role": "Issuer of the annual report",
+      "context": "The company whose corporate information and board composition is being described in this section."
+    },
+    {
+      "name": "Girish Chandra Chaturvedi",
+      "aliases": [],
+      "type": "person",
+      "role": "Non-Executive (part-time) Chairman up to June 30, 2024",
+      "context": "Outgoing Non-Executive Chairman whose tenure at ICICI Bank ended on June 30, 2024."
+    },
+    {
+      "name": "Pradeep Kumar Sinha",
+      "aliases": [],
+      "type": "person",
+      "role": "Non-Executive (part-time) Chairman effective July 1, 2024",
+      "context": "Incoming Non-Executive Chairman who succeeded Girish Chandra Chaturvedi from July 1, 2024."
+    },
+    {
+      "name": "Neelam Dhawan",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Board Governance, Remuneration & Nomination Committee",
+      "context": "Serves as Independent Director and chairs a key board committee overseeing governance and remuneration."
+    },
+    {
+      "name": "Uday Chitale",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Audit Committee",
+      "context": "Chairs the Audit Committee and serves as an Independent Director on the ICICI Bank Board."
+    },
+    {
+      "name": "Radhakrishnan Nair",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Fraud Monitoring Committee",
+      "context": "Chairs the Fraud Monitoring Committee and serves as Independent Director."
+    },
+    {
+      "name": "Hari L. Mundra",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Stakeholders Relationship Committee",
+      "context": "Chairs the Stakeholders Relationship Committee and serves as Independent Director."
+    },
+    {
+      "name": "B. Sriram",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Information Technology Strategy Committee",
+      "context": "Chairs the IT Strategy Committee and serves as an Independent Director."
+    },
+    {
+      "name": "S. Madhavan",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Risk Committee",
+      "context": "Chairs the Risk Committee and serves as Independent Director on the Board."
+    },
+    {
+      "name": "Vibha Paul Rishi",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director and Chairperson of Customer Service Committee",
+      "context": "Chairs the Customer Service Committee and serves as Independent Director."
+    },
+    {
+      "name": "Rohit Bhasin",
+      "aliases": [],
+      "type": "person",
+      "role": "Independent Director effective July 26, 2024",
+      "context": "Newly appointed Independent Director who joined the ICICI Bank Board on July 26, 2024."
+    },
+    {
+      "name": "Sandeep Bakhshi",
+      "aliases": [],
+      "type": "person",
+      "role": "Managing Director & CEO and Chairperson of Credit Committee",
+      "context": "Serves as MD & CEO of ICICI Bank and chairs the Credit Committee."
+    },
+    {
+      "name": "Sandeep Batra",
+      "aliases": [],
+      "type": "person",
+      "role": "Executive Director",
+      "context": "Executive Director serving on multiple board committees of ICICI Bank."
+    },
+    {
+      "name": "Rakesh Jha",
+      "aliases": [],
+      "type": "person",
+      "role": "Executive Director",
+      "context": "Executive Director serving on multiple board committees of ICICI Bank."
+    },
+    {
+      "name": "Ajay Kumar Gupta",
+      "aliases": [],
+      "type": "person",
+      "role": "Executive Director",
+      "context": "Executive Director serving on the IT Strategy Committee of ICICI Bank."
+    },
+    {
+      "name": "Anindya Banerjee",
+      "aliases": [],
+      "type": "person",
+      "role": "Group Chief Financial Officer",
+      "context": "Key Personnel identified as Group CFO of ICICI Bank, distinct from Board Members."
+    },
+    {
+      "name": "Prachiti Lalingkar",
+      "aliases": [],
+      "type": "person",
+      "role": "Company Secretary",
+      "context": "Key Personnel identified as Company Secretary of ICICI Bank, distinct from Board Members."
+    }
+  ],
+  "metrics": [],
+  "notable_other": [
+    "(C) denotes the Chairperson of each Board Committee.",
+    "The section lists nine Board Committees: Audit Committee, Board Governance Remuneration & Nomination Committee, Corporate Social Responsibility Committee, Credit Committee, Customer Service Committee, Fraud Monitoring Committee, Information Technology Strategy Committee, Risk Committee, and Stakeholders Relationship Committee.",
+    "Key Personnel listed are the Group CFO (Anindya Banerjee) and Company Secretary (Prachiti Lalingkar), distinct from Board Members."
+  ],
+  "ocr_confidence": "high",
+  "pages": [
+    8
+  ],
+  "risks": [],
+  "salient_quotes": [
+    "Girish Chandra Chaturvedi Non-Executive (part-time) Chairman* ... * Up to June 30, 2024",
+    "Pradeep Kumar Sinha Non-Executive (part-time) Chairman** ... ** With effect from July 1, 2024",
+    "Rohit Bhasin Independent Director*** ... *** With effect from July 26, 2024",
+    "As on July 27, 2024",
+    "Sandeep Bakhshi Managing Director & CEO",
+    "Anindya Banerjee Group Chief Financial Officer"
+  ],
+  "segment_ids": [
+    "s_005"
+  ],
+  "sentiment": "neutral",
+  "summary": "This section presents the Corporate Information page of ICICI Bank's annual report, detailing the full composition of the Board of Directors and its committees. A key leadership transition is recorded: Girish Chandra Chaturvedi served as Non-Executive (part-time) Chairman up to June 30, 2024, and was succeeded by Pradeep Kumar Sinha, who assumed the role effective July 1, 2024. The Board comprises seven Independent Directors, one Managing Director & CEO (Sandeep Bakhshi), and three Executive Directors (Sandeep Batra, Rakesh Jha, and Ajay Kumar Gupta). Rohit Bhasin was newly appointed as an Independent Director effective July 26, 2024. The section details the composition of nine Board Committees — including the Audit Committee, Risk Committee, Credit Committee, and others — as of July 27, 2024, with each committee's Chairperson identified. Two Key Personnel are also listed: Anindya Banerjee as Group Chief Financial Officer and Prachiti Lalingkar as Company Secretary.",
+  "topics": [
+    "Board Composition",
+    "Corporate Governance",
+    "Board Committees",
+    "Leadership Transition",
+    "Key Personnel",
+    "Executive Directors",
+    "Independent Directors"
+  ]
+}
