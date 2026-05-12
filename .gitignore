@@ -4,3 +4,5 @@ __pycache__/
 .claude/
 .DS_Store
 .DS_Store?
+doc-processing-pipeline/.env
+qna-pipeline/.env
