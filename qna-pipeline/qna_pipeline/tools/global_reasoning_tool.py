@@ -23,7 +23,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langgraph.prebuilt import InjectedState, create_react_agent
 
-from config.prompts.global_reasoning_prompt import GLOBAL_REASONING_PROMPT
+from config.prompts.qna.global_reasoning_prompt import GLOBAL_REASONING_PROMPT
 from config.settings import (
     GRA_INNER_RECURSION_LIMIT,
     GREP_MATCH_LIMIT,

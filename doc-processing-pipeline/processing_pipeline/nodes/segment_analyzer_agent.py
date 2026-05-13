@@ -6,7 +6,7 @@ from typing import Any
 
 from langgraph.types import Send
 
-from config.prompts.segment_analyzer_prompt import SEGMENT_ANALYZER_PROMPT
+from config.prompts.doc_processing.segment_analyzer_prompt import SEGMENT_ANALYZER_PROMPT
 from config.settings import (
     SEGMENT_ANALYZER_CONCURRENCY,
     SEGMENTATION_OUTPUT_DIR,

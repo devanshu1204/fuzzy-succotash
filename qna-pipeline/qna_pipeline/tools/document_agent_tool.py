@@ -14,7 +14,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 
-from config.prompts.document_agent_prompt import DOCUMENT_AGENT_PROMPT
+from config.prompts.qna.document_agent_prompt import DOCUMENT_AGENT_PROMPT
 from config.settings import DOCUMENT_AGENT_RECURSION_LIMIT
 from qna_pipeline.db.mongo import (
     get_chapter_full,

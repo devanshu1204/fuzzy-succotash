@@ -25,7 +25,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langgraph.prebuilt import InjectedState, create_react_agent
 
-from config.prompts.lookup_orchestrator_prompt import LOOKUP_ORCHESTRATOR_PROMPT
+from config.prompts.qna.lookup_orchestrator_prompt import LOOKUP_ORCHESTRATOR_PROMPT
 from config.settings import (
     LOOKUP_INNER_RECURSION_LIMIT,
     LOOKUP_WORKER_PARALLEL_CAP,

@@ -14,7 +14,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 
-from config.prompts.section_worker_prompt import SECTION_WORKER_PROMPT
+from config.prompts.qna.section_worker_prompt import SECTION_WORKER_PROMPT
 from config.settings import GREP_MATCH_LIMIT, WORKER_INNER_RECURSION_LIMIT
 from qna_pipeline.db.markdown import PageNotFound, get_page_text, grep
 from qna_pipeline.db.mongo import (

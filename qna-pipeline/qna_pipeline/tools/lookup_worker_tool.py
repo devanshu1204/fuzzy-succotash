@@ -19,7 +19,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 
-from config.prompts.lookup_worker_prompt import LOOKUP_WORKER_PROMPT
+from config.prompts.qna.lookup_worker_prompt import LOOKUP_WORKER_PROMPT
 from config.settings import GREP_MATCH_LIMIT, WORKER_INNER_RECURSION_LIMIT
 from qna_pipeline.db.markdown import PageNotFound
 from qna_pipeline.db.markdown import get_page_text as get_page_text_impl

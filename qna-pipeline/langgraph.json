@@ -1,7 +1,0 @@
-{
-  "graphs": {
-    "qna": "./qna_pipeline/pipeline.py:app"
-  },
-  "dependencies": ["."],
-  "env": ".env"
-}

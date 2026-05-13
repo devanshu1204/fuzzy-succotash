@@ -1,0 +1,8 @@
+{
+  "graphs": {
+    "pipeline": "./doc-processing-pipeline/processing_pipeline/pipeline.py:app",
+    "qna": "./qna-pipeline/qna_pipeline/pipeline.py:app"
+  },
+  "env": ".env",
+  "dependencies": ["."]
+}

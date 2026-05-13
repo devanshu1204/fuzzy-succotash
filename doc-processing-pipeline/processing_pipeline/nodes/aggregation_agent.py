@@ -6,7 +6,7 @@ from typing import Any
 
 from langgraph.types import Send
 
-from config.prompts.aggregation_prompt import AGGREGATION_PROMPT
+from config.prompts.doc_processing.aggregation_prompt import AGGREGATION_PROMPT
 from config.settings import (
     CHAPTER_AGGREGATOR_CONCURRENCY,
     SECTION_AGGREGATOR_CONCURRENCY,

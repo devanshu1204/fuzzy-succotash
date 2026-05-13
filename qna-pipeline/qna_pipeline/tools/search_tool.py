@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langgraph.prebuilt import InjectedState, create_react_agent
 
-from config.prompts.search_prompt import SEARCH_PROMPT
+from config.prompts.qna.search_prompt import SEARCH_PROMPT
 from qna_pipeline.tools.mcp_clients import get_pageindex_tools
 from utils.llm import llm
 

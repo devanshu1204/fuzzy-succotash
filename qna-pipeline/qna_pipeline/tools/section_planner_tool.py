@@ -12,7 +12,7 @@ from typing import Callable
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.tools import tool
 
-from config.prompts.section_planner_prompt import SECTION_PLANNER_PROMPT
+from config.prompts.qna.section_planner_prompt import SECTION_PLANNER_PROMPT
 from config.settings import PLAN_MAX_TASKS
 from qna_pipeline.db.mongo import list_sections
 from qna_pipeline.schemas.plan import Plan

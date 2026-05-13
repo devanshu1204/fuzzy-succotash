@@ -5,7 +5,7 @@ from pathlib import Path
 
 from pydantic import BaseModel, Field
 
-from config.prompts.preprocessing_prompt import TOC_EXTRACTION_PROMPT
+from config.prompts.doc_processing.preprocessing_prompt import TOC_EXTRACTION_PROMPT
 from config.settings import PREPROCESSED_OUTPUT_DIR
 from processing_pipeline.state import DocumentProcessingState
 from utils.llm import llm

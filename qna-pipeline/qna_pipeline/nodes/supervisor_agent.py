@@ -4,7 +4,7 @@ from typing import Any, Optional
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from config.prompts.supervisor_prompt import SUPERVISOR_PROMPT, SUPERVISOR_PROMPT_V2
+from config.prompts.qna.supervisor_prompt import SUPERVISOR_PROMPT, SUPERVISOR_PROMPT_V2
 from config.settings import SUPERVISOR_PROMPT_VERSION
 from qna_pipeline.state import QnAState
 from qna_pipeline.tools.global_reasoning_tool import global_reasoning
