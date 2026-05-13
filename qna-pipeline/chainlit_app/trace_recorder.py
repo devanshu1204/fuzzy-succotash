@@ -51,6 +51,8 @@ AGENT_TOOLS: dict[str, tuple[str, str]] = {
     "plan_sections":      ("section_planner", "plan_sections_call_{n}"),
     "run_section_worker": ("section_worker",  "section_worker_call_{n}"),
     "query_document":     ("document_agent",  "document_agent_call_{n}"),
+    "lookup":             ("lookup_agent",    "lookup_agent_call_{n}"),
+    "run_lookup_worker":  ("lookup_worker",   "lookup_worker_call_{n}"),
 }
 
 _PREVIEW_CHARS = 500
@@ -114,7 +116,7 @@ def _extract_usage(output: Any) -> dict[str, Optional[int]]:
 @dataclass
 class Scope:
     scope_id: str
-    kind: str  # "supervisor" | "gra" | "section_worker" | "document_agent" | "section_planner" | "search_agent"
+    kind: str  # "supervisor" | "gra" | "section_worker" | "document_agent" | "section_planner" | "search_agent" | "lookup_agent" | "lookup_worker"
     parent_scope_id: Optional[str]
     started_at: str
     ended_at: Optional[str] = None

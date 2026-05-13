@@ -41,6 +41,8 @@ _AGENT_DISPLAY_NAMES: dict[str, str] = {
     "run_section_worker": "section_worker",
     "query_document":     "document_agent",
     "plan_sections":      "section_planner",
+    "lookup":             "lookup_agent",
+    "run_lookup_worker":  "lookup_worker",
 }
 
 
