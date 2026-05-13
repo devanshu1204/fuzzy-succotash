@@ -24,9 +24,13 @@ from pathlib import Path
 from typing import Any, Optional
 
 # Make sibling packages importable when chainlit invokes this file directly.
+# - _PIPELINE_DIR (qna-pipeline/) exposes the `qna_pipeline` package.
+# - _REPO_ROOT (the Modus root) exposes the shared `config` and `utils` packages.
 _PIPELINE_DIR = Path(__file__).resolve().parent.parent
-if str(_PIPELINE_DIR) not in sys.path:
-    sys.path.insert(0, str(_PIPELINE_DIR))
+_REPO_ROOT = _PIPELINE_DIR.parent
+for _p in (_REPO_ROOT, _PIPELINE_DIR):
+    if str(_p) not in sys.path:
+        sys.path.insert(0, str(_p))
 
 import chainlit as cl  # noqa: E402
 from chainlit.input_widget import TextInput  # noqa: E402
