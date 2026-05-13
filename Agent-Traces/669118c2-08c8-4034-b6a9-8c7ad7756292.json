@@ -1,0 +1,112 @@
+{
+  "run_id": "669118c2-08c8-4034-b6a9-8c7ad7756292",
+  "question": "what is the banks approach",
+  "document_id": "ICICI Bank Report",
+  "pageindex_doc_id": null,
+  "started_at": "2026-05-13T02:38:22.623941+00:00",
+  "ended_at": "2026-05-13T02:39:41.670088+00:00",
+  "duration_seconds": 79.047,
+  "final_answer": "## ICICI Bank's Approach — A Comprehensive Overview\n\nICICI Bank's approach, as described in its report, is **holistic, integrated, and multi-dimensional**, built around five major pillars:\n\n---\n\n### 1. 🏦 Business Strategy: Risk-Calibrated, Digital-First Growth\nThe bank's core strategic objective is **risk-calibrated growth in Profit Before Tax (PBT) excluding treasury** (which grew **28.3% YoY to ₹544.79 billion** in FY2024), guided by **seven strategic value drivers** and three cornerstone principles:\n- **\"Return of Capital is Paramount\"** — Capital discipline governs all growth decisions\n- **\"One Bank, One Team\"** — Breaking silos for unified, cross-sell value\n- **\"Fair to Customer, Fair to Bank\"** — Balanced, mutually beneficial outcomes\n\nKey pillars include **Customer 360°** (holistic, segment-agnostic engagement), **Ecosystem Banking** (deep corporate value chain partnerships), and a **BankTech transformation** (90%+ transactions on digital channels).\n\n---\n\n### 2. 🧭 Corporate Philosophy & Values\nThe bank's culture rests on **five guiding principles**:\n1. Fair to Customer, Fair to Bank\n2. Return of Capital is Paramount\n3. Compliance with Conscience\n4. One Bank, One Team\n5. Agile Risk Management\n\nThe organisational model is framed through a **six-capitals framework** (Financial, Human, Intellectual, Manufactured, Social & Relationship, and Natural Capital).\n\n---\n\n### 3. 🛡️ Risk Approach: Independent, Multi-Layered Governance\n- **Four independent groups** — Risk Management, Compliance, Internal Audit, and Financial Crime Prevention — all functioning independently from business units\n- **Enterprise Risk Management (ERM)** and a **Risk Appetite Framework (RAF)** covering credit, market, liquidity, operational, and reputational risks\n- A dedicated **Climate Risk Management Framework (CRMF)**\n- Strong credit quality: **Gross NPA at 2.26%**, Net NPA at **0.42%**, and a Provision Coverage Ratio of **80.3%**\n- 24×7 ISO 27001-certified Security Operations Centre with zero material breaches in FY2024\n\n---\n\n### 4. 👤 Customer Approach: 360°, Digital-First, and Inclusive\n- **Customer 360° model** — holistic service across all products, life stages, and touchpoints\n- **Digital platforms**: iMobile Pay (30M+ users), InstaBIZ for SMEs, iLens for digital lending, ~19.3% UPI P2M value share\n- **Financial Inclusion**: 21.1 million Basic Savings Bank Deposit Accounts and over 10.49 million women borrowers via SHG loans\n- Strong grievance redressal through Internal Ombudsmen and a Reputation Management Forum\n\n---\n\n### 5. 🌱 Sustainability Approach: Structured ESG with a 2032 Carbon-Neutral Target\n- Governance follows a **four-tier hierarchy**: Board → Risk Committee → ESG Steering Committee → Dedicated Team\n- Renewable energy share jumped from **9% to 35%** in a single year\n- Scope 1 & 2 emissions **reduced by 15.7%** to 126,000 tCO2e\n- **Carbon neutrality target for Scope 1 & 2 by fiscal 2032**\n- Sustainable financing portfolio of **₹685.28 billion**, including ₹193.66 billion in green financing\n- CSR obligation of **₹5.17 billion** fulfilled; 12.8 million+ beneficiaries via ICICI Foundation\n\n---\n\n### 🔑 In Summary\n\n| Dimension | Core Theme | FY2024 Headline |\n|---|---|---|\n| **Business Strategy** | Risk-calibrated, digital-first | PBT excl. treasury +28.3% |\n| **Philosophy** | Fair, ethical, one-team | 5 guiding principles; 6-capitals model |\n| **Risk Approach** | Independent, layered governance | Net NPA 0.42%; zero security breaches |\n| **Customer Approach** | 360° digital, inclusive | 90%+ digital; 30M+ iMobile Pay users |\n| **Sustainability** | Carbon-neutral by 2032 | RE share 9%→35%; ₹685 bn ESG portfolio |\n\n> In essence, ICICI Bank's approach is: **pursue growth, but never at the cost of capital safety, customer fairness, ethical compliance, or environmental responsibility** — positioning itself as a **\"BankTech\"** institution that balances commercial ambition with social and environmental accountability.",
+  "scopes": [
+    {
+      "scope_id": "supervisor",
+      "kind": "supervisor",
+      "parent_scope_id": null,
+      "started_at": "2026-05-13T02:38:22.623941+00:00",
+      "ended_at": "2026-05-13T02:39:41.670088+00:00",
+      "tokens": {
+        "input": 5554,
+        "output": 1223,
+        "total": 6777
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "global_reasoning",
+          "args": {
+            "question": "What is ICICI Bank's overall approach as described in the report? This could include their business approach, strategy, philosophy, risk approach, customer approach, sustainability approach, or any other overarching approach mentioned."
+          },
+          "result_preview": "# ICICI Bank's Overall Approach — FY2024 Annual Report\n\nICICI Bank's report reveals a deeply integrated, multi-dimensional approach to banking, structured around five major pillars:\n\n---\n\n## 1. 🏦 Business Strategy: Risk-Calibrated, Digital-First Growth\n\nThe Bank's overarching strategic objective is **risk-calibrated growth in Profit Before Tax (PBT) excluding treasury**, which grew **28.3% year-on-year to ₹544.79 billion** in FY2024. This is underpinned by **seven strategic value drivers** and t… (truncated, 5308 more chars)",
+          "started_at": "2026-05-13T02:38:25.800726+00:00",
+          "duration_seconds": 64.391,
+          "sub_agent_scope_id": "gra_agent_call_1"
+        }
+      ]
+    },
+    {
+      "scope_id": "gra_agent_call_1",
+      "kind": "gra",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-13T02:38:25.800737+00:00",
+      "ended_at": "2026-05-13T02:39:30.191388+00:00",
+      "tokens": {
+        "input": 7919,
+        "output": 1714,
+        "total": 9633
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "query_document",
+          "args": {
+            "query": "ICICI Bank's overall approach including business strategy, philosophy, risk approach, customer approach, and sustainability approach"
+          },
+          "result_preview": "Here is a comprehensive synthesis of ICICI Bank's overall approach across all five dimensions, drawn from the Integrated Report:\n\n---\n\n# ICICI Bank's Overall Approach — FY2024\n\n---\n\n## 1. 🏦 Business Strategy\n\nICICI Bank's overarching strategic objective is **risk-calibrated growth in Profit Before Tax (PBT) excluding treasury**, which grew 28.3% y-o-y to ₹544.79 billion in fiscal 2024. The strategy is built on **seven strategic value drivers** and three guiding principles:\n\n- **\"Return of Capita… (truncated, 6676 more chars)",
+          "started_at": "2026-05-13T02:38:27.705391+00:00",
+          "duration_seconds": 44.472,
+          "sub_agent_scope_id": "document_agent_call_1"
+        }
+      ]
+    },
+    {
+      "scope_id": "document_agent_call_1",
+      "kind": "document_agent",
+      "parent_scope_id": "gra_agent_call_1",
+      "started_at": "2026-05-13T02:38:27.705404+00:00",
+      "ended_at": "2026-05-13T02:39:12.176680+00:00",
+      "tokens": {
+        "input": 27520,
+        "output": 2069,
+        "total": 29589
+      },
+      "llm_calls": 3,
+      "tool_calls": [
+        {
+          "tool": "list_chapter_summaries_tool",
+          "args": {},
+          "result_preview": "[{\"chapter_name\": \"FINANCIAL STATEMENTS\", \"pages\": [144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233… (truncated, 9698 more chars)",
+          "started_at": "2026-05-13T02:38:29.738039+00:00",
+          "duration_seconds": 0.033
+        },
+        {
+          "tool": "get_chapter_full_tool",
+          "args": {
+            "chapter_name": "INTEGRATED REPORT"
+          },
+          "result_preview": "{\"doc_id\": \"ICICI Bank Report\", \"chapter_name\": \"INTEGRATED REPORT\", \"contradictions\": [{\"description\": \"Two sections of the report report slightly different figures for ICICI Bank's fiscal 2024 CSR spend: the Social and Relationship Capital section cites ₹5.17 billion as the CSR statutory obligation under the Companies Act, 2013, while the Business Model section cites ₹5.19 billion as the total contribution towards social causes, creating ambiguity about the total outlay.\", \"statements\": [\"ICIC… (truncated, 66370 more chars)",
+          "started_at": "2026-05-13T02:38:31.610492+00:00",
+          "duration_seconds": 0.076
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "tokens": {
+      "input": 40993,
+      "output": 5006,
+      "total": 45999
+    },
+    "llm_calls": 7,
+    "tool_calls_by_name": {
+      "global_reasoning": 1,
+      "query_document": 1,
+      "list_chapter_summaries_tool": 1,
+      "get_chapter_full_tool": 1
+    },
+    "scope_counts": {
+      "supervisor": 1,
+      "gra": 1,
+      "document_agent": 1
+    }
+  }
+}

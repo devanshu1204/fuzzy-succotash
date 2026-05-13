@@ -1,0 +1,117 @@
+{
+  "run_id": "332cc768-7e14-4ec3-8d8e-4f14ad2cbc99",
+  "question": "where is that subsidiary table present",
+  "document_id": "ICICI Bank Report",
+  "pageindex_doc_id": null,
+  "started_at": "2026-05-12T22:06:43.056453+00:00",
+  "ended_at": "2026-05-12T22:07:03.945647+00:00",
+  "duration_seconds": 20.889,
+  "final_answer": "Based on the information retrieved from the database, the **subsidiary table** is present in **two locations** in the ICICI Bank Annual Report 2023-24:\n\n---\n\n### 📄 1. Page 72 — *Board's Report*\n**Section: \"Subsidiary, Associate and Joint Venture Companies\"**\n- Contains a **list of all 17 subsidiaries** (including step-down subsidiaries) along with their **% of shares held** as at March 31, 2024.\n- Also includes a list of **8 associate companies** with their shareholding percentages.\n\n---\n\n### 📄 2. Page 142 — *Management Discussion & Analysis*\n**Section: \"Principal Subsidiaries Performance Table\"**\n- Contains a **financial performance table** for principal subsidiaries showing:\n  - **Profit After Tax** (Fiscal 2023 vs. Fiscal 2024)\n  - **Total Assets** (March 31, 2023 vs. March 31, 2024)\n- Subsidiaries covered include ICICI Bank Canada, ICICI Bank UK PLC, ICICI Prudential Life, ICICI Lombard, ICICI Prudential AMC, ICICI Securities, and others.\n\n---\n\nIn short, if you're looking for the **subsidiary list with ownership %**, refer to **Page 72**, and for **financial performance data**, refer to **Page 142**. 📊",
+  "scopes": [
+    {
+      "scope_id": "supervisor",
+      "kind": "supervisor",
+      "parent_scope_id": null,
+      "started_at": "2026-05-12T22:06:43.056453+00:00",
+      "ended_at": "2026-05-12T22:07:03.945647+00:00",
+      "tokens": {
+        "input": 3429,
+        "output": 472,
+        "total": 3901
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "global_reasoning",
+          "args": {
+            "question": "Where is the subsidiary table present in the ICICI Bank Report? What page number or section does it appear in?"
+          },
+          "result_preview": "The **subsidiary table(s)** appear in **two key locations** in the ICICI Bank Annual Report 2023-24:\n\n---\n\n### 📄 Page 72 — *Board's Report* Section: **\"Subsidiary, Associate and Joint Venture Companies\"**\n\nThis section contains:\n- A **list of all 17 subsidiaries** (including step-down subsidiaries) with their **% of shares held** as at March 31, 2024. Notable entries include:\n  - ICICI Bank UK PLC (100%)\n  - ICICI Prudential Life Insurance Company Limited (51.20%)\n  - ICICI Lombard General Insur… (truncated, 1070 more chars)",
+          "started_at": "2026-05-12T22:06:46.113681+00:00",
+          "duration_seconds": 13.146,
+          "sub_agent_scope_id": "gra_agent_call_1"
+        },
+        {
+          "tool": "search",
+          "args": {
+            "question": "Where is the subsidiary table present in the document? What page number or section does it appear in?"
+          },
+          "result_preview": "ERROR: pageindex_doc_id is missing from pipeline input; the search agent cannot run without a target document. Tell the user that a pageindex_doc_id is required to query indexed documents.",
+          "started_at": "2026-05-12T22:06:46.139493+00:00",
+          "duration_seconds": 0.003,
+          "sub_agent_scope_id": "search_agent_call_1"
+        }
+      ]
+    },
+    {
+      "scope_id": "gra_agent_call_1",
+      "kind": "gra",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-12T22:06:46.113693+00:00",
+      "ended_at": "2026-05-12T22:06:59.259397+00:00",
+      "tokens": {
+        "input": 13876,
+        "output": 612,
+        "total": 14488
+      },
+      "llm_calls": 3,
+      "tool_calls": [
+        {
+          "tool": "grep",
+          "args": {
+            "pattern": "subsidiary",
+            "limit": 20
+          },
+          "result_preview": "[{\"printed_page\": 72, \"physical_page\": 73, \"line\": 2985, \"snippet\": \"### SUBSIDIARY, ASSOCIATE AND JOINT VENTURE COMPANIES\"}, {\"printed_page\": 72, \"physical_page\": 73, \"line\": 2987, \"snippet\": \"During the year under review, ICICI Lombard General Insurance Company Limited ceased to be an associate and became a subsidiary of the Bank with effect from February 29, 2024. I-Process Services (India) Private Limited ceased to be an associate and became a subsidiary of the Bank with effect from March 20… (truncated, 5237 more chars)",
+          "started_at": "2026-05-12T22:06:48.069972+00:00",
+          "duration_seconds": 0.018
+        },
+        {
+          "tool": "get_page_text",
+          "args": {
+            "printed_pages": [
+              72,
+              142
+            ]
+          },
+          "result_preview": "--- Printed page 72 ---\nFigure: ICICI Bank Logo\n**ICICI Bank**\n\n###### BOARD'S REPORT\n\n### SHARE CAPITAL\n\nDuring the year under review, the Bank allotted 39,519,912 equity shares of ₹ 2.00 each pursuant to exercise of stock options under the ICICI Bank Employees Stock Option Scheme - 2000. For details refer to Schedule 1 of the financial statements.\n\n### PARTICULARS OF LOANS, GUARANTEES OR INVESTMENTS\n\nPursuant to Section 186(11) of the Companies Act, 2013, the provisions of Section 186 of the C… (truncated, 9894 more chars)",
+          "started_at": "2026-05-12T22:06:50.288683+00:00",
+          "duration_seconds": 0.092
+        }
+      ]
+    },
+    {
+      "scope_id": "search_agent_call_1",
+      "kind": "search_agent",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-12T22:06:46.139497+00:00",
+      "ended_at": "2026-05-12T22:06:46.142071+00:00",
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "llm_calls": 0,
+      "tool_calls": []
+    }
+  ],
+  "totals": {
+    "tokens": {
+      "input": 17305,
+      "output": 1084,
+      "total": 18389
+    },
+    "llm_calls": 5,
+    "tool_calls_by_name": {
+      "global_reasoning": 1,
+      "search": 1,
+      "grep": 1,
+      "get_page_text": 1
+    },
+    "scope_counts": {
+      "supervisor": 1,
+      "gra": 1,
+      "search_agent": 1
+    }
+  }
+}

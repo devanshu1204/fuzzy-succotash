@@ -1,0 +1,85 @@
+{
+  "run_id": "dfa02974-1610-4967-9dc9-02ca910d3b3c",
+  "question": "what is supply chain financing in the document",
+  "document_id": "ICICI Bank Report",
+  "pageindex_doc_id": null,
+  "started_at": "2026-05-13T02:43:14.029502+00:00",
+  "ended_at": "2026-05-13T02:43:46.381328+00:00",
+  "duration_seconds": 32.352,
+  "final_answer": "## Supply Chain Financing in the ICICI Bank Report\n\nHere is a detailed breakdown of **Supply Chain Financing** as described in the document:\n\n---\n\n### 📌 Definition\n> *\"Supply chain financing is an increased requirement from corporate clients for bringing in efficiency and scale within their supply chain ecosystem.\"* *(Page 23)*\n\nIt refers to a set of **financial products and digital solutions** offered by ICICI Bank to help corporate clients manage financial flows — payments, collections, credit, and reconciliation — across their networks of **dealers and vendors**.\n\n---\n\n### 🎯 Core Purpose\n- **Optimise working capital financing** for corporates and their supply chain partners.\n- Increase **efficiencies in their ecosystems**.\n- Enable a **paperless, digital environment** for managing supply chain transactions.\n\n---\n\n### 💻 Digital Platforms Used\nThe Bank offers the following secured digital platforms for supply chain financing:\n\n| Platform | Function |\n|---|---|\n| **OneSCF** | One-stop supply chain financing solution |\n| **FSCM** (Financial Supply Chain Management) | Structured trade & supply chain products |\n| **CorpConnect** | Manages financing, payments, collections & reconciliation for dealers/vendors |\n| **DigitalLite** | Convenient and paperless supply chain management |\n\n---\n\n### 🔗 Role in the Corporate Ecosystem *(Page 28)*\n> *\"Supply chain financing is an integral part of the corporate ecosystem and solutions like CorpConnect and DigitalLite enable corporates to seamlessly manage supply chain financing, payments, collection and reconciliation requirements of their dealers and vendors in a convenient and paperless process.\"*\n\nAdditionally, these solutions **automatically assess the eligibility** of a client's dealers and vendors for credit using:\n- A **Business Rule Engine**\n- **GST Returns**\n- **Intelligent Algorithms** with automated bureau and dedupe checks\n\n---\n\n### 🗝️ Summary\nSupply chain financing at ICICI Bank is a **comprehensive, digitally-driven offering** that acts as a one-stop solution for corporate clients to manage their entire supply chain's financial needs — from working capital to payments — seamlessly and efficiently through smart, paperless platforms.",
+  "scopes": [
+    {
+      "scope_id": "supervisor",
+      "kind": "supervisor",
+      "parent_scope_id": null,
+      "started_at": "2026-05-13T02:43:14.029502+00:00",
+      "ended_at": "2026-05-13T02:43:46.381328+00:00",
+      "tokens": {
+        "input": 16391,
+        "output": 1891,
+        "total": 18282
+      },
+      "llm_calls": 7,
+      "tool_calls": [
+        {
+          "tool": "lookup",
+          "args": {
+            "question": "What is supply chain financing mentioned in the document?"
+          },
+          "result_preview": "## Supply Chain Financing in the Document\n\nBased on the document, here is a comprehensive explanation of **Supply Chain Financing** as described:\n\n---\n\n### 📌 Definition\n> *\"Supply chain financing is an increased requirement from corporate clients for bringing in efficiency and scale within their supply chain ecosystem.\"*\n*(Page 23)*\n\nIt refers to a set of **financial products and digital solutions** offered by ICICI Bank that help corporate clients manage financial flows — payments, collections,… (truncated, 1730 more chars)",
+          "started_at": "2026-05-13T02:43:15.719498+00:00",
+          "duration_seconds": 25.712
+        },
+        {
+          "tool": "run_lookup_worker",
+          "args": {
+            "sub_query": "What is supply chain financing? Find all mentions and explanations of \"supply chain financing\" in the document and return the relevant text and page numbers."
+          },
+          "result_preview": "Here is a complete summary of all mentions and explanations of **\"supply chain financing\"** in the document:\n\n---\n\n### 📄 Page 23 — Definition & Digital Platforms\n> *\"Supply chain financing is an increased requirement from corporate clients for bringing in efficiency and scale within their supply chain ecosystem. The Bank's wide range of supply chain and structured trade products offer a one-stop solution to corporate clients and their supply chain partners, helping in optimising their working ca… (truncated, 2172 more chars)",
+          "started_at": "2026-05-13T02:43:17.947985+00:00",
+          "duration_seconds": 13.046
+        },
+        {
+          "tool": "grep",
+          "args": {
+            "pattern": "supply chain financing",
+            "pages_filter": [],
+            "limit": 20
+          },
+          "result_preview": "[{\"printed_page\": 23, \"physical_page\": 24, \"line\": 1132, \"snippet\": \"Supply chain financing is an increased requirement from corporate clients for bringing in efficiency and scale within their supply chain ecosystem. The Bank's wide range of supply chain and structured trade products offer …\"}, {\"printed_page\": 28, \"physical_page\": 29, \"line\": 1344, \"snippet\": \"Supply chain financing is an integral part of the corporate ecosystem and solutions like CorpConnect and DigitalLite enable corporates t… (truncated, 362 more chars)",
+          "started_at": "2026-05-13T02:43:20.130725+00:00",
+          "duration_seconds": 0.03
+        },
+        {
+          "tool": "get_page_text",
+          "args": {
+            "printed_pages": [
+              23,
+              28
+            ]
+          },
+          "result_preview": "--- Printed page 23 ---\nIntegrated Report\n\nStatutory Reports\n\nFinancial Statements\n\n###### OUR BUSINESS STRATEGY\n\nempowering the customers with a Do-it-yourself (DIY) experience, providing real-time feedback. Smart BG Assist is enabled across channels and business centres. The Bank has enabled digital execution of BGs using e-stamping and e-signing solutions, through empanelled agencies, that make BGs paperless and help in their digital transmission. The Bank also provides a digital repository o… (truncated, 6962 more chars)",
+          "started_at": "2026-05-13T02:43:21.666847+00:00",
+          "duration_seconds": 0.098
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "tokens": {
+      "input": 16391,
+      "output": 1891,
+      "total": 18282
+    },
+    "llm_calls": 7,
+    "tool_calls_by_name": {
+      "lookup": 1,
+      "run_lookup_worker": 1,
+      "grep": 1,
+      "get_page_text": 1
+    },
+    "scope_counts": {
+      "supervisor": 1
+    }
+  }
+}

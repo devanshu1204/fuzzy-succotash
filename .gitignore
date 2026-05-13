@@ -11,9 +11,6 @@ dist/
 .DS_Store
 .DS_Store?
 
-# Per-run Modus QnA traces written by the Chainlit observer
-Agent-Traces/*.json
-
 # Chainlit local files
 .chainlit/
 .files/

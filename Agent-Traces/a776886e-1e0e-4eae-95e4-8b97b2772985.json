@@ -1,0 +1,102 @@
+{
+  "run_id": "a776886e-1e0e-4eae-95e4-8b97b2772985",
+  "question": "what are the major contradictions across the document",
+  "document_id": "ICICI Bank Report",
+  "pageindex_doc_id": null,
+  "started_at": "2026-05-13T07:21:20.527686+00:00",
+  "ended_at": "2026-05-13T07:23:02.450475+00:00",
+  "duration_seconds": 101.923,
+  "final_answer": "## Major Contradictions Across the ICICI Bank Report\n\nThe document contains **15 identified contradictions and inconsistencies**, ranging from arithmetic errors to conflicting narrative claims. Here is a full structured breakdown:\n\n---\n\n## 🔴 HIGH SEVERITY — Materially Significant\n\n### 1. ICICI Lombard Acquisition Date — Two Different Dates\n| Source | Date |\n|---|---|\n| Subsidiary Table | February **24**, 2024 |\n| Footnotes, Standalone & Consolidated Statements | February **29**, 2024 |\n> A factual date cannot hold two values — one is clearly erroneous.\n\n---\n\n### 2. AFS Investment Total is Arithmetically Impossible (March 31, 2023)\n- **AFS Gross Total — India alone:** ₹1,195,172 million\n- **AFS Gross Total (India + Outside India):** ₹1,004,753.6 million *(lower than India alone — a mathematical impossibility)*\n\n---\n\n### 3. AFS Provision Sub-totals Don't Match the Stated Total (March 31, 2023)\n- Shares (India): ₹29,712.7M + Debentures (India): ₹9,748.5M = **₹39,461.2M**\n- **Stated \"Total in India\":** ₹18,015.9M ← A gap of ~₹21,445 million\n\n---\n\n### 4. \"Other Investments\" — Table vs. MD&A Narrative (Both Years)\n| Period | Asset Table | MD&A Narrative |\n|---|---|---|\n| March 31, 2023 | ₹495.83 billion | ₹565.61 billion |\n| March 31, 2024 | ₹752.36 billion | ₹863.68 billion |\n> The discrepancy exists for **both years**, ruling out a one-time typo.\n\n---\n\n### 5. AIF Provision — Three Different Figures Across Chapters\n| Source | Amount |\n|---|---|\n| Integrated Report / MD&A | ₹5.41 billion |\n| Financial Statements (Standalone note) | ₹5,104.1 million (~₹5.10B) |\n| Financial Statements (Consolidated note) | ₹5,105.0 million (~₹5.11B) |\n\n---\n\n## 🟠 MEDIUM SEVERITY — Notable Inconsistencies\n\n### 6. HTM NPI Provisions — Disclosed Items vs. Stated Total\n- Only disclosed line item: ₹54.7 million (Shares)\n- Stated HTM NPI Provision for India: ₹3,773.3 million\n> No other visible items bridge the ~₹3,718M gap.\n\n---\n\n### 7. Amazon Pay Credit Cards — \"~5 Million\" vs. \"Over 4 Million\"\n| Source | Figure |\n|---|---|\n| Bank at a Glance section | **~5 million** cards issued till March 31, 2024 |\n| Our Business Strategy section | **Over 4 million** cards issued till March 31, 2024 |\n\n---\n\n### 8. Scope 1 Emissions Rose, Yet Combined Scope 1+2 Claimed to Have Declined\n- Scope 1 FY2023 → FY2024: 23,000 → **25,000 tCO2e** *(increased)*\n- Claimed combined Scope 1+2 change: **15.7% decline** (driven entirely by a 19.7% Scope 2 reduction)\n> Technically accurate in aggregate, but directionally misleading without disclosing the Scope 1 uptick.\n\n---\n\n### 9. Anup Bagchi — Stock Options Granted After His Departure\n- **Last working day:** April 30, 2023\n- **Stock options granted during fiscal 2024:** 231,000 (described as \"pertaining to fiscal 2023\")\n> The report does not clearly explain how options were issued to a former employee post-departure.\n\n---\n\n### 10. Postal Ballot — \"None in FY2024\" vs. April 5, 2024 Notice\n- Board's Report states: *\"no resolution was passed through postal ballot during fiscal 2024\"*\n- The same section then describes a Postal Ballot Notice dated **April 5, 2024**, with resolutions passed on **May 14, 2024**\n\n---\n\n### 11. Net NPA Ratio — Three Different Values Across Chapters\n| Source | Net NPA Ratio |\n|---|---|\n| Financial Statements | **0.45%** (Net NPA to Net Advances) |\n| Statutory Reports / MD&A | **0.42%** (Net NPAs to Net Customer Assets) |\n| Integrated Report (chart caption) | **0.4%** (rounded) |\n> The 0.42% vs 0.45% difference reflects different denominators, but this distinction is **not clearly flagged** in the document.\n\n---\n\n## 🟡 LOW SEVERITY — Minor Discrepancies (Likely Rounding)\n\n| # | Issue | Values |\n|---|---|---|\n| 12 | CSR Spend (same fiscal year) | ₹5.17B (Social Capital) vs. ₹5.19B (Business Model) |\n| 13 | Profit Before Tax excl. treasury (FY2023) | ₹424.73B / 28.3% growth vs. ₹424.21B / 28.4% growth |\n| 14 | Cost of Domestic Term Deposits (FY2024) | 6.21% (table) vs. 6.22% (narrative) |\n| 15 | Net NPA ratio (within Integrated Report) | 0.4% (chart) vs. 0.42% (narrative) |\n\n---\n\n## 🔑 Key Takeaway\n\nThe **most consequential contradictions** are:\n1. **Arithmetic errors** in the AFS investment tables (Items 2 & 3)\n2. **ICICI Lombard acquisition date** discrepancy (Item 1)\n3. The persistent **\"Other Investments\" mismatch** across both fiscal years (Item 4)\n4. The **three-way AIF provision discrepancy** across chapters (Item 5)\n\nThese go beyond simple rounding errors and may reflect data extraction issues, OCR artifacts, or genuine inconsistencies in the source report — warranting careful verification by auditors or analysts.",
+  "scopes": [
+    {
+      "scope_id": "supervisor",
+      "kind": "supervisor",
+      "parent_scope_id": null,
+      "started_at": "2026-05-13T07:21:20.527686+00:00",
+      "ended_at": "2026-05-13T07:23:02.450475+00:00",
+      "tokens": {
+        "input": 6103,
+        "output": 1664,
+        "total": 7767
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "global_reasoning",
+          "args": {
+            "question": "What are the major contradictions across the document? Identify any inconsistencies, conflicting statements, or contradictory data points found in different sections or chapters of the ICICI Bank Report."
+          },
+          "result_preview": "# 🔍 Major Contradictions & Inconsistencies in the ICICI Bank Report\n\nThe document-level analysis uncovered **15 distinct contradictions and inconsistencies** ranging from arithmetic errors to conflicting narrative claims. Here is a full structured breakdown:\n\n---\n\n## 🔴 HIGH SEVERITY — Materially Significant\n\n### 1. ICICI Lombard Acquisition Date — Two Different Dates\n| Source | Date |\n|---|---|\n| Subsidiary Table | February **24**, 2024 |\n| Footnotes, Standalone & Consolidated Statements | Febru… (truncated, 5691 more chars)",
+          "started_at": "2026-05-13T07:21:23.612096+00:00",
+          "duration_seconds": 84.316,
+          "sub_agent_scope_id": "gra_agent_call_1"
+        }
+      ]
+    },
+    {
+      "scope_id": "gra_agent_call_1",
+      "kind": "gra",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-13T07:21:23.612104+00:00",
+      "ended_at": "2026-05-13T07:22:47.927464+00:00",
+      "tokens": {
+        "input": 8670,
+        "output": 2266,
+        "total": 10936
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "query_document",
+          "args": {
+            "query": "major contradictions, inconsistencies, conflicting statements, or contradictory data points across different sections or chapters of the ICICI Bank Report"
+          },
+          "result_preview": "Here is a comprehensive, chapter-by-chapter breakdown of every major contradiction, inconsistency, and conflicting data point identified across the ICICI Bank Report:\n\n---\n\n## 🔍 Major Contradictions & Inconsistencies in the ICICI Bank Report\n\n---\n\n### 📂 **CHAPTER 1: FINANCIAL STATEMENTS**\n\n#### 1. ICICI Lombard Acquisition Date — Two Different Dates\n> **Contradiction:** The subsidiary table and multiple other sections give two different dates for when ICICI Lombard became a subsidiary.\n- **Subsi… (truncated, 7876 more chars)",
+          "started_at": "2026-05-13T07:21:25.909822+00:00",
+          "duration_seconds": 53.384,
+          "sub_agent_scope_id": "document_agent_call_1"
+        }
+      ]
+    },
+    {
+      "scope_id": "document_agent_call_1",
+      "kind": "document_agent",
+      "parent_scope_id": "gra_agent_call_1",
+      "started_at": "2026-05-13T07:21:25.909862+00:00",
+      "ended_at": "2026-05-13T07:22:19.293917+00:00",
+      "tokens": {
+        "input": 78151,
+        "output": 2758,
+        "total": 80909
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "list_chapters_full_tool",
+          "args": {},
+          "result_preview": "[{\"chapter_name\": \"FINANCIAL STATEMENTS\", \"doc_id\": \"ICICI Bank Report\", \"contradictions\": [{\"description\": \"The acquisition date for ICICI Lombard General Insurance Company Limited as a subsidiary is stated as February 24, 2024 in the subsidiary table but as February 29, 2024 in the footnote and in multiple other sections.\", \"statements\": [\"The subsidiary table states ICICI Lombard General Insurance Company Limited was acquired on February 24, 2024.\", \"The footnote (and multiple other sections … (truncated, 279911 more chars)",
+          "started_at": "2026-05-13T07:21:28.210229+00:00",
+          "duration_seconds": 1.038
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "tokens": {
+      "input": 92924,
+      "output": 6688,
+      "total": 99612
+    },
+    "llm_calls": 6,
+    "tool_calls_by_name": {
+      "global_reasoning": 1,
+      "query_document": 1,
+      "list_chapters_full_tool": 1
+    },
+    "scope_counts": {
+      "supervisor": 1,
+      "gra": 1,
+      "document_agent": 1
+    }
+  }
+}

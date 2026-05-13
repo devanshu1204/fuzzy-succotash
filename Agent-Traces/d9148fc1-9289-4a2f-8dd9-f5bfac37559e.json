@@ -1,0 +1,457 @@
+{
+  "run_id": "d9148fc1-9289-4a2f-8dd9-f5bfac37559e",
+  "question": "Compare the credit risk approach in the Risk Management chapter vs. the disclosures in the Auditor's Report.",
+  "document_id": "ICICI Bank Report",
+  "pageindex_doc_id": null,
+  "started_at": "2026-05-12T20:21:06.053131+00:00",
+  "ended_at": "2026-05-12T20:27:02.649322+00:00",
+  "duration_seconds": 356.597,
+  "final_answer": "Here is a thorough, structured comparison of ICICI Bank's **credit risk approach in the Risk Management chapter** versus the **disclosures in the Auditor's Report**:\n\n---\n\n# 📊 ICICI Bank: Credit Risk — Risk Management Chapter vs. Auditor's Report\n\n---\n\n## 1. 🎯 Core Focus & Purpose\n\n| Dimension | Risk Management Chapter | Auditor's Report |\n|---|---|---|\n| **Primary Purpose** | Forward-looking strategy: how the Bank **identifies, governs, and manages** credit risk | Backward-looking validation: how the auditors **verified and tested** credit risk outcomes as at 31 March 2024 |\n| **Audience** | Investors, regulators, stakeholders — painting a strategic picture | Shareholders and regulators — providing assurance on financial statement reliability |\n| **Nature of Content** | Proactive, policy-driven, and qualitative | Evidence-based, quantitative, and compliance-focused |\n\n---\n\n## 2. 🔑 Primary Credit Risk Theme\n\n| Risk Management Chapter | Auditor's Report |\n|---|---|\n| Positions credit risk as the **single most important risk** the Bank faces as a financial intermediary | Designates **NPA identification and provisioning** as the **Key Audit Matter (KAM)** — the highest-risk area for the audit |\n| Emphasis on **managing credit risk across all business segments** (retail, corporate, SME) | Emphasis on the **correct classification of loans as NPA or performing**, and the adequacy of provisions held against them |\n| **Growth strategy**: \"risk-calibrated growth in profit before tax\" | **Quantitative anchoring**: ₹11.84 trillion in net loans (standalone), ₹219.4 billion in NPA provisions |\n\nBoth chapters agree that credit risk is the **most critical financial risk** — but they approach it from opposite ends of the credit cycle (origination vs. outcome).\n\n---\n\n## 3. 🏗️ Governance & Oversight\n\n| Risk Management Chapter | Auditor's Report |\n|---|---|\n| Describes a **multi-tiered governance structure**: Credit Committee of the Board, Risk Committee of the Board, GCRO, independent Credit Risk Management Group | Notes that the Bank has a **Board-approved NPA provisioning policy** in line with RBI IRAC guidelines — validates the governance structure's outputs |\n| Highlights the **three lines of defence model** (business, risk/compliance, internal audit) | Tests the **effectiveness of Internal Audit, Systems Audit, and Concurrent Audit** in the NPA identification process |\n| Governance is described in detail (committee mandates, escalation paths, reporting lines) | Governance is tested but not described — auditors confirm it **operates effectively** without detailing its design |\n\n**Key Contrast:** The Risk Management chapter *designs and explains* the governance structure; the Auditor's Report independently *validates* whether that structure actually worked.\n\n---\n\n## 4. 🛠️ Methodology & Tools\n\n| Risk Management Chapter | Auditor's Report |\n|---|---|\n| **ERM/RAF Framework**: translates risk appetite into limit frameworks across all segments | **IRAC Framework**: RBI's Income Recognition and Asset Classification & Provisioning norms are the regulatory yardstick for NPA testing |\n| **ECL (Expected Credit Loss) Model**: Stage 1 (12-month PD), Stage 2 (lifetime ECL on significant risk increase), Stage 3 (lifetime ECL on impaired assets) | **Provisioning under IRAC**: focuses on RBI's minimum provisioning norms + Bank's Board-approved policy, not the ECL model |\n| **Stress Testing**: explicit tool for testing portfolio resilience under adverse macro scenarios (high interest rates, weak global growth, geopolitical risks) | **Sample testing**: auditors independently replicated NPA identification and provisioning calculations on selected borrowers, supplemented by sector discussions with management |\n| **Concentration limits**: max 15% exposure to any single industry; lower-rated borrower limits well below regulatory caps | **CRILC/CIMS database reviews**: auditors cross-checked Special Mention Accounts (SMAs) reported by ICICI Bank *and other banks* to independently detect early stress |\n| **Early-warning surveillance** (ongoing reviews for early identification) | **Watchlist examination**: auditors examined accounts on the Bank's risk department watchlist — validating the early-warning process from the outside |\n| **Climate Risk Management Framework (CRMF)**: physical and transitional climate risks integrated into lending portfolio assessment | ❌ Not mentioned in the Auditor's Report — climate risk was not a KAM or audit concern |\n\n**Key Contrast:** The Risk Management chapter uses a broad, multi-tool methodological arsenal (stress tests, ECL, ERM, CRMF). The Auditor's Report is narrower, focusing specifically on NPA/provisioning accuracy under the **RBI IRAC lens** — the regulatory compliance anchor.\n\n---\n\n## 5. 📏 Macro Risk Identification vs. Specific Portfolio Risk\n\n| Risk Management Chapter | Auditor's Report |\n|---|---|\n| Identifies **top-down macro drivers** of credit risk: geopolitical tensions, elevated global interest rates, weak global growth outlook | Focuses on **bottom-up, borrower-level risk**: individual loan classification, overdue ageing, collateral values, restructured accounts |\n| Monitors **all major economic sectors** for portfolio-level concentration risk | Reviewed sectors with **perceived credit risk** through management discussions and cross-referenced stress in specific sectors |\n| Highlights **cross-segment risk management** — ensuring no business line escapes credit risk discipline | Tested specific product categories (e.g., retail products, restructured accounts under RBI Master Circular) |\n\n**Key Contrast:** The Risk Management chapter takes a **macro-to-portfolio** view; the Auditor's Report takes a **loan-by-loan-to-portfolio** view.\n\n---\n\n## 6. 💡 Unique Disclosures — Each Side Reveals Something the Other Doesn't\n\n### ✅ Risk Management Chapter (not in Auditor's Report):\n- **Climate Risk Management Framework (CRMF)** — integration of ESG/climate risk into credit decisions\n- **Capital buffers maintained \"significantly above regulatory requirements\"** as a credit risk resilience strategy\n- **ICAAP 4-year capital planning horizon** for forward-looking credit risk capital adequacy\n- **Sector concentration limit of 15%** of total exposure\n- **Three lines of defence model** in detail\n\n### ✅ Auditor's Report (not in Risk Management Chapter):\n- **Actual NPA provision figures**: ₹219.36 billion (standalone), ₹222.70 billion (consolidated)\n- **RBI observation risk** — explicit acknowledgment that RBI could make additional observations affecting disclosures\n- **Sector stress and liquidity concerns** cited as a specific risk to NPA identification accuracy\n- **Subsidiary-level credit risk** — investment impairment risks at ICICI Prudential Life Insurance and ICICI Lombard General Insurance\n- **Independent cross-verification** via CRILC/CIMS external databases\n- **Unmodified (clean) audit opinion** — confirmation that credit risk is being managed and reported fairly\n\n---\n\n## 7. ⚖️ Areas of Strong Convergence\n\nDespite their different vantage points, both documents are **aligned on several key themes**:\n\n| Theme | Risk Management Chapter | Auditor's Report |\n|---|---|---|\n| **NPA/credit quality is the central credit risk concern** | ✅ NPL monitoring by Credit Committee of the Board | ✅ NPA identification and provisioning is the KAM |\n| **Regulatory compliance is paramount** | ✅ Basel III, RBI guidelines, Board-approved policies | ✅ RBI IRAC, RBI Master Circular, Board-approved policy verified |\n| **Sector-level stress is a key risk driver** | ✅ Sector monitoring, concentration limits | ✅ Sector stress and liquidity concerns in NPA identification |\n| **Independent controls are essential** | ✅ Three lines of defence; independent risk group | ✅ Controls over NPA identification tested and found effective |\n| **Contingency provisions exist above regulatory minimums** | ✅ Mentioned as part of risk-calibrated prudence | ✅ Auditors verified existence and assumptions of contingency provisions |\n\n---\n\n## 8. 🏁 Overall Conclusion\n\n| | Risk Management Chapter | Auditor's Report |\n|---|---|---|\n| **Overall Verdict** | Presents a **robust, multi-layered, proactive** credit risk management architecture | Issues a **clean, unmodified opinion** with no qualification on credit risk — implicitly validating the risk management architecture |\n| **Tone** | Confident and forward-looking — \"risk-calibrated growth\" | Rigorous and objective — \"true and fair view\" |\n| **Scope** | Enterprise-wide: corporate, retail, SME, climate, concentration, capital | Primarily: NPA identification, provisioning accuracy, and disclosure adequacy |\n\n---\n\n### 🔑 Summary Insight\n\nThe **Risk Management chapter** is the *blueprint* — it tells you *how* ICICI Bank intends to identify, govern, and mitigate credit risk through strategy, frameworks (ERM, ICAAP, ECL, CRMF), and governance. The **Auditor's Report** is the *report card* — it tests whether the most critical output of that blueprint (NPA identification and provisioning) is **accurate, compliant, and fairly disclosed**. Crucially, the auditors' **clean opinion** effectively endorses the Bank's credit risk management framework as sound and operating as intended, while also surfacing the inherent complexity and judgement involved — particularly around sector stress, regulatory scrutiny (RBI), and estimation uncertainty.",
+  "scopes": [
+    {
+      "scope_id": "supervisor",
+      "kind": "supervisor",
+      "parent_scope_id": null,
+      "started_at": "2026-05-12T20:21:06.053131+00:00",
+      "ended_at": "2026-05-12T20:27:02.649322+00:00",
+      "tokens": {
+        "input": 12371,
+        "output": 2607,
+        "total": 14978
+      },
+      "llm_calls": 3,
+      "tool_calls": [
+        {
+          "tool": "global_reasoning",
+          "args": {
+            "question": "What does the Risk Management chapter say about the credit risk approach in the ICICI Bank Report? Please provide detailed information about their credit risk methodology, frameworks, processes, and strategies."
+          },
+          "result_preview": "I now have comprehensive, detailed information from all relevant sections and supporting pages. Here is a fully synthesized, structured answer:\n\n---\n\n# ICICI Bank's Credit Risk Management: A Comprehensive Overview\n\nBased on the **Risk Management chapter** of the ICICI Bank Annual Report 2023-24 (primarily pages 36–37 and 42–43), here is a detailed breakdown of ICICI Bank's credit risk approach, methodology, frameworks, processes, and strategies:\n\n---\n\n## 1. 🏛️ Strategic Philosophy & Positioning\n… (truncated, 10867 more chars)",
+          "started_at": "2026-05-12T20:21:16.070681+00:00",
+          "duration_seconds": 189.573,
+          "sub_agent_scope_id": "gra_agent_call_1"
+        },
+        {
+          "tool": "search",
+          "args": {
+            "question": "What does the Auditor's Report disclose about credit risk in ICICI Bank? Please provide all relevant details from the Auditor's Report regarding credit risk disclosures, key audit matters, and related findings."
+          },
+          "result_preview": "ERROR: pageindex_doc_id is missing from pipeline input; the search agent cannot run without a target document. Tell the user that a pageindex_doc_id is required to query indexed documents.",
+          "started_at": "2026-05-12T20:21:16.097374+00:00",
+          "duration_seconds": 0.003,
+          "sub_agent_scope_id": "search_agent_call_1"
+        },
+        {
+          "tool": "global_reasoning",
+          "args": {
+            "question": "What does the Auditor's Report in the ICICI Bank Annual Report say about credit risk? Please provide all disclosures, key audit matters, observations, and findings related to credit risk from the Auditor's Report section."
+          },
+          "result_preview": "Here is a comprehensive, structured presentation of **everything the Auditor's Report in the ICICI Bank Annual Report 2023-24 says about Credit Risk** — covering both the **Standalone** and **Consolidated** Auditors' Reports:\n\n---\n\n# 🏦 ICICI Bank – Auditor's Report: All Credit Risk Disclosures, KAMs & Findings\n\n> **Auditors:** M S K A & Associates and KKC & Associates LLP\n> **Report Date:** 27 April 2024 | **Year Ended:** 31 March 2024\n\n---\n\n## 🔑 KEY AUDIT MATTER (KAM): Identification and Provis… (truncated, 9151 more chars)",
+          "started_at": "2026-05-12T20:24:29.768806+00:00",
+          "duration_seconds": 107.597,
+          "sub_agent_scope_id": "gra_agent_call_2"
+        }
+      ]
+    },
+    {
+      "scope_id": "gra_agent_call_1",
+      "kind": "gra",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-12T20:21:16.070709+00:00",
+      "ended_at": "2026-05-12T20:24:25.643457+00:00",
+      "tokens": {
+        "input": 31768,
+        "output": 2973,
+        "total": 34741
+      },
+      "llm_calls": 5,
+      "tool_calls": [
+        {
+          "tool": "plan_sections",
+          "args": {
+            "query": "credit risk approach methodology frameworks processes and strategies in Risk Management chapter"
+          },
+          "result_preview": "{\"tasks\":[{\"section_name\":\"Risk Governance Framework\",\"sub_query\":\"Extract all details related to credit risk approach, methodology, frameworks, processes, and strategies described in this section, including how credit risk is governed, assessed, monitored, and managed within ICICI Bank's Enterprise Risk Management and Risk Appetite Framework.\"},{\"section_name\":\"Responding to Risks and Opportunities\",\"sub_query\":\"Extract all details about credit risk management approach, methodology, frameworks,… (truncated, 430 more chars)",
+          "started_at": "2026-05-12T20:21:18.931009+00:00",
+          "duration_seconds": 14.669,
+          "sub_agent_scope_id": "plan_sections_call_1"
+        },
+        {
+          "tool": "run_section_worker",
+          "args": {
+            "section_name": "Risk Governance Framework",
+            "sub_query": "Extract all details related to credit risk approach, methodology, frameworks, processes, and strategies described in this section, including how credit risk is governed, assessed, monitored, and managed within ICICI Bank's Enterprise Risk Management and Risk Appetite Framework."
+          },
+          "result_preview": "I now have all the details needed. Here is a comprehensive, structured answer:\n\n---\n\n## Credit Risk: Approach, Methodology, Frameworks, Processes, and Strategies in ICICI Bank's Risk Governance Framework\n\n### 1. Strategic Positioning & Philosophy\n\nICICI Bank's foundational approach to credit risk is embedded in its core values of **\"Return of Capital, Agile Risk Management, and Compliance with Conscience\"** (page 36). The overarching credit risk strategy is described as **\"risk-calibrated growth… (truncated, 10350 more chars)",
+          "started_at": "2026-05-12T20:21:41.343100+00:00",
+          "duration_seconds": 104.66,
+          "sub_agent_scope_id": "section_worker_call_1"
+        },
+        {
+          "tool": "run_section_worker",
+          "args": {
+            "section_name": "Responding to Risks and Opportunities",
+            "sub_query": "Extract all details about credit risk management approach, methodology, frameworks, processes, and strategies described in this section, including how the Bank identifies, assesses, and responds to credit risk among the major risk categories covered."
+          },
+          "result_preview": "Here is a comprehensive extraction of all credit risk management details described in this section:\n\n---\n\n## Credit Risk Management: Full Details from \"Responding to Risks and Opportunities\" (Pages 42–43)\n\n### 1. Overarching Risk Management Philosophy\nBefore diving into credit risk specifically, the Bank establishes the broader framework within which credit risk sits. On page 42, the section opens by stating: *\"The Bank has a robust process to identify and monitor risks and respond appropriately… (truncated, 7147 more chars)",
+          "started_at": "2026-05-12T20:21:41.346736+00:00",
+          "duration_seconds": 51.519,
+          "sub_agent_scope_id": "section_worker_call_2"
+        },
+        {
+          "tool": "grep",
+          "args": {
+            "pattern": "credit risk",
+            "limit": 20
+          },
+          "result_preview": "[{\"printed_page\": 36, \"physical_page\": 37, \"line\": 1594, \"snippet\": \"As a financial intermediary, the Bank is exposed to various risks, primarily credit risk, market risk, liquidity risk, operational risk, technology risk, cyber risk, compliance risk, legal risk and reputation risk. The Bank is committed to managing material risks and participating in opp…\"}, {\"printed_page\": 36, \"physical_page\": 37, \"line\": 1600, \"snippet\": \"The Risk Management Group is further organised into the Credit Risk Ma… (truncated, 4827 more chars)",
+          "started_at": "2026-05-12T20:23:28.404397+00:00",
+          "duration_seconds": 0.022
+        },
+        {
+          "tool": "get_page_text",
+          "args": {
+            "printed_pages": [
+              77,
+              135
+            ]
+          },
+          "result_preview": "--- Printed page 77 ---\nIntegrated Report\n\nStatutory Reports\n\nFinancial Statements\n\n###### BOARD'S REPORT\n\ninformation security, compliance, group and capital at risk as a part of the risk dashboard. The Risk Committee also reviews the Liquidity Contingency Plan for the Bank and the various thresholds set out in the Plan.\n\n- The Credit Committee of the Board, apart from sanctioning credit proposals based on the Bank's credit approval authorisation framework, reviews developments in key industria… (truncated, 8458 more chars)",
+          "started_at": "2026-05-12T20:23:30.991375+00:00",
+          "duration_seconds": 0.009
+        }
+      ]
+    },
+    {
+      "scope_id": "search_agent_call_1",
+      "kind": "search_agent",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-12T20:21:16.097382+00:00",
+      "ended_at": "2026-05-12T20:21:16.099925+00:00",
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "llm_calls": 0,
+      "tool_calls": []
+    },
+    {
+      "scope_id": "plan_sections_call_1",
+      "kind": "section_planner",
+      "parent_scope_id": "gra_agent_call_1",
+      "started_at": "2026-05-12T20:21:18.931022+00:00",
+      "ended_at": "2026-05-12T20:21:33.600124+00:00",
+      "tokens": {
+        "input": 16229,
+        "output": 246,
+        "total": 16475
+      },
+      "llm_calls": 1,
+      "tool_calls": []
+    },
+    {
+      "scope_id": "section_worker_call_1",
+      "kind": "section_worker",
+      "parent_scope_id": "gra_agent_call_1",
+      "started_at": "2026-05-12T20:21:41.343115+00:00",
+      "ended_at": "2026-05-12T20:23:26.003221+00:00",
+      "tokens": {
+        "input": 68383,
+        "output": 2699,
+        "total": 71082
+      },
+      "llm_calls": 5,
+      "tool_calls": [
+        {
+          "tool": "get_section_full_tool",
+          "args": {},
+          "result_preview": "{\"doc_id\": \"ICICI Bank Report\", \"section_name\": \"Risk Governance Framework\", \"chapter_name\": \"INTEGRATED REPORT\", \"contradictions\": [], \"decisions\": [{\"text\": \"A Chief Data Officer (CDO) was appointed in fiscal 2023 to create governance and processes around data generation, processing, and compliance with customer data regulations.\", \"decision_type\": \"appointment\", \"actors\": [\"ICICI Bank\"], \"affected_entities\": [\"Chief Data Officer\"], \"effective_date\": \"fiscal 2023\", \"supporting_quote\": \"To furt… (truncated, 53790 more chars)",
+          "started_at": "2026-05-12T20:21:49.414052+00:00",
+          "duration_seconds": 0.006
+        },
+        {
+          "tool": "get_segments_meta_tool",
+          "args": {},
+          "result_preview": "[{\"seg_id\": \"s_026\", \"pages\": [36, 37, 38, 39, 40, 41], \"salient_quotes\": [\"The Bank is committed to achieve responsible and sustainable growth, underpinned by our core values of Return of Capital, Agile Risk Management and Compliance with Conscience.\", \"The Bank is committed to managing material risks and participating in opportunities as part of the strategic approach of risk-calibrated growth in profit before tax excluding treasury.\", \"Most Committees are chaired by Independent Directors and … (truncated, 10423 more chars)",
+          "started_at": "2026-05-12T20:21:49.417574+00:00",
+          "duration_seconds": 2.305
+        },
+        {
+          "tool": "grep_in_section_tool",
+          "args": {
+            "pattern": "credit"
+          },
+          "result_preview": "[{\"printed_page\": 36, \"physical_page\": 37, \"line\": 1594, \"snippet\": \"As a financial intermediary, the Bank is exposed to various risks, primarily credit risk, market risk, liquidity risk, operational risk, technology risk, cyber risk, compliance risk, legal risk and reputation risk. The Bank is committed to managing material risks and participating i…\"}, {\"printed_page\": 36, \"physical_page\": 37, \"line\": 1600, \"snippet\": \"The Risk Management Group is further organised into the Credit Risk Managem… (truncated, 821 more chars)",
+          "started_at": "2026-05-12T20:22:02.969193+00:00",
+          "duration_seconds": 0.011
+        },
+        {
+          "tool": "grep_in_section_tool",
+          "args": {
+            "pattern": "non-performing"
+          },
+          "result_preview": "[{\"printed_page\": 36, \"physical_page\": 37, \"line\": 1604, \"snippet\": \"- **Credit Committee:** Approval of credit proposals as per the authorisation approved by the Board and review of developments in key industrial sectors, non-performing loans, accounts under watch, incremental sanctions, non-fund based exposures, unsecured portfolio, capital market exposures, commercial real estate exposures, retail exposures etc.\"}]",
+          "started_at": "2026-05-12T20:22:02.977946+00:00",
+          "duration_seconds": 0.003
+        },
+        {
+          "tool": "grep_in_section_tool",
+          "args": {
+            "pattern": "risk appetite"
+          },
+          "result_preview": "[{\"printed_page\": 37, \"physical_page\": 38, \"line\": 1622, \"snippet\": \"…risks, business continuity plan and disaster recovery plan. The functions of the Committee also include setting limits for industry or country, review the Bank's Enterprise Risk Management Framework, Risk Appetite Framework, Stress Testing Framework, Internal Capital Adequacy Assessment Process and Framework for Capital Allocation. In addition, the Risk Committee reviews the Basel Framework, risk dashboard cov…\"}]",
+          "started_at": "2026-05-12T20:22:11.119070+00:00",
+          "duration_seconds": 0.011
+        },
+        {
+          "tool": "grep_in_section_tool",
+          "args": {
+            "pattern": "ICAAP"
+          },
+          "result_preview": "[{\"printed_page\": 37, \"physical_page\": 38, \"line\": 1624, \"snippet\": \"The Internal Capital Adequacy Assessment Process (ICAAP) encompasses capital planning for a four-year time horizon, assessment of material risks and the relationship between risk and capital. Stress testing, which is a key aspect of the ICAAP and the risk…\"}]",
+          "started_at": "2026-05-12T20:22:11.127626+00:00",
+          "duration_seconds": 0.003
+        },
+        {
+          "tool": "get_page_text_tool",
+          "args": {
+            "printed_pages": [
+              36,
+              37
+            ]
+          },
+          "result_preview": "--- Printed page 36 ---\nFigure: ICICI Bank logo\n\n## RISK GOVERNANCE FRAMEWORK\n\n**The Bank is committed to achieve responsible and sustainable growth, underpinned by our core values of Return of Capital, Agile Risk Management and Compliance with Conscience.**\n\nAs a financial intermediary, the Bank is exposed to various risks, primarily credit risk, market risk, liquidity risk, operational risk, technology risk, cyber risk, compliance risk, legal risk and reputation risk. The Bank is committed to … (truncated, 7475 more chars)",
+          "started_at": "2026-05-12T20:22:23.371833+00:00",
+          "duration_seconds": 0.01
+        }
+      ],
+      "section_name": "Risk Governance Framework"
+    },
+    {
+      "scope_id": "section_worker_call_2",
+      "kind": "section_worker",
+      "parent_scope_id": "gra_agent_call_1",
+      "started_at": "2026-05-12T20:21:41.346756+00:00",
+      "ended_at": "2026-05-12T20:22:32.866089+00:00",
+      "tokens": {
+        "input": 17597,
+        "output": 1766,
+        "total": 19363
+      },
+      "llm_calls": 3,
+      "tool_calls": [
+        {
+          "tool": "get_section_full_tool",
+          "args": {},
+          "result_preview": "{\"doc_id\": \"ICICI Bank Report\", \"section_name\": \"Responding to Risks and Opportunities\", \"chapter_name\": \"INTEGRATED REPORT\", \"contradictions\": [], \"decisions\": [{\"text\": \"ICICI Bank formulated a Climate Risk Management Framework (CRMF) to integrate climate risk into its overall risk management framework.\", \"decision_type\": \"strategic\", \"actors\": [\"ICICI Bank\"], \"affected_entities\": [\"ICICI Bank\", \"Risk Management Group\"], \"effective_date\": \"FY24\", \"supporting_quote\": \"The Bank has formulated a … (truncated, 24891 more chars)",
+          "started_at": "2026-05-12T20:21:49.497318+00:00",
+          "duration_seconds": 0.003
+        },
+        {
+          "tool": "grep_in_section_tool",
+          "args": {
+            "pattern": "credit risk"
+          },
+          "result_preview": "[{\"printed_page\": 42, \"physical_page\": 43, \"line\": 1804, \"snippet\": \"| <img alt=\\\"Credit Risk icon: A building with a gear and a downward arrow.\\\" data-bbox=\\\"193 1504 272 1585\\\" src=\\\"4e79568b222a182602f182dfb812d1e4_img.jpg\\\"/><br><b>Credit Risk</b>                   | Uncertainties pertaining t…\"}]",
+          "started_at": "2026-05-12T20:21:49.499228+00:00",
+          "duration_seconds": 0.011
+        },
+        {
+          "tool": "get_page_text_tool",
+          "args": {
+            "printed_pages": [
+              42,
+              43
+            ]
+          },
+          "result_preview": "--- Printed page 42 ---\nFigure: ICICI Bank Logo\n\n### RESPONDING TO RISKS AND OPPORTUNITIES\n\nThe Bank recognises the importance of adopting a rigorous approach to understanding and responding to risks and opportunities that enables long-term value creation for all stakeholders.\n\nThe Bank has a robust process to identify and monitor risks and respond appropriately. The Bank continuously reviews and enhances the methods for identification and assessment of risks, and sets appropriate metrics and co… (truncated, 11882 more chars)",
+          "started_at": "2026-05-12T20:22:01.604981+00:00",
+          "duration_seconds": 0.085
+        }
+      ],
+      "section_name": "Responding to Risks and Opportunities"
+    },
+    {
+      "scope_id": "gra_agent_call_2",
+      "kind": "gra",
+      "parent_scope_id": "supervisor",
+      "started_at": "2026-05-12T20:24:29.768819+00:00",
+      "ended_at": "2026-05-12T20:26:17.365574+00:00",
+      "tokens": {
+        "input": 32222,
+        "output": 3008,
+        "total": 35230
+      },
+      "llm_calls": 4,
+      "tool_calls": [
+        {
+          "tool": "plan_sections",
+          "args": {
+            "query": "Auditor's Report credit risk disclosures key audit matters observations findings"
+          },
+          "result_preview": "{\"tasks\":[{\"section_name\":\"Independent Auditors' Report – Financial Statements\",\"sub_query\":\"What are the Key Audit Matters (KAMs) related to credit risk in the standalone auditors' report? Specifically extract findings, observations, and audit procedures related to identification and provisioning of non-performing advances (NPAs), including disclosed figures such as total loans net of provision and NPA provision amounts as at 31 March 2024.\"},{\"section_name\":\"Independent Auditors' Report – Cons… (truncated, 640 more chars)",
+          "started_at": "2026-05-12T20:24:31.925629+00:00",
+          "duration_seconds": 7.67,
+          "sub_agent_scope_id": "plan_sections_call_2"
+        },
+        {
+          "tool": "grep",
+          "args": {
+            "pattern": "credit risk",
+            "limit": 20
+          },
+          "result_preview": "[{\"printed_page\": 36, \"physical_page\": 37, \"line\": 1594, \"snippet\": \"As a financial intermediary, the Bank is exposed to various risks, primarily credit risk, market risk, liquidity risk, operational risk, technology risk, cyber risk, compliance risk, legal risk and reputation risk. The Bank is committed to managing material risks and participating in opp…\"}, {\"printed_page\": 36, \"physical_page\": 37, \"line\": 1600, \"snippet\": \"The Risk Management Group is further organised into the Credit Risk Ma… (truncated, 4827 more chars)",
+          "started_at": "2026-05-12T20:24:31.940228+00:00",
+          "duration_seconds": 0.004
+        },
+        {
+          "tool": "run_section_worker",
+          "args": {
+            "section_name": "Independent Auditors' Report – Financial Statements",
+            "sub_query": "What are the Key Audit Matters (KAMs) related to credit risk in the standalone auditors' report? Specifically extract findings, observations, and audit procedures related to identification and provisioning of non-performing advances (NPAs), including disclosed figures such as total loans net of provision and NPA provision amounts as at 31 March 2024."
+          },
+          "result_preview": "The section's full aggregate has provided comprehensive, highly detailed information on this KAM. Here is the complete, synthesised answer:\n\n---\n\n## KAM 1: Identification and Provisioning of Non-Performing Advances (NPAs) — Standalone Auditors' Report, ICICI Bank FY2024\n\n### Disclosed Financial Figures (as at 31 March 2024)\nThe auditors (M S K A & Associates and KKC & Associates LLP) disclosed two key figures directly in the KAM section (page 144):\n- **Total Loans and Advances (Net of Provision)… (truncated, 4630 more chars)",
+          "started_at": "2026-05-12T20:24:43.319853+00:00",
+          "duration_seconds": 26.218,
+          "sub_agent_scope_id": "section_worker_call_3"
+        },
+        {
+          "tool": "run_section_worker",
+          "args": {
+            "section_name": "Independent Auditors' Report – Consolidated Financial Statements",
+            "sub_query": "What are the Key Audit Matters (KAMs) related to credit risk in the consolidated auditors' report? Extract all findings, observations, and audit procedures concerning NPA identification and provisioning, including figures for consolidated loans net of provision and NPA provision as at 31 March 2024, as well as any credit-risk-related matters from subsidiary auditors."
+          },
+          "result_preview": "The `get_section_full_tool` has returned highly detailed, comprehensive data. I now have everything needed to construct a thorough answer. Let me now compile all the findings.\n\nHere is a comprehensive extraction of all Key Audit Matters (KAMs) related to credit risk — covering NPA identification and provisioning, key figures, audit procedures, and credit-risk-related matters from subsidiary auditors — as reported in the Independent Auditors' Report on ICICI Bank's Consolidated Financial Statemen… (truncated, 7130 more chars)",
+          "started_at": "2026-05-12T20:24:43.322462+00:00",
+          "duration_seconds": 41.541,
+          "sub_agent_scope_id": "section_worker_call_4"
+        },
+        {
+          "tool": "get_page_text",
+          "args": {
+            "printed_pages": [
+              144,
+              145,
+              146,
+              147
+            ]
+          },
+          "result_preview": "--- Printed page 144 ---\nFigure: ICICI Bank Logo\n**ICICI Bank**\n\n# INDEPENDENT AUDITOR'S REPORT\n\nTo the Members of ICICI Bank Limited\n\n## Report on the Audit of the Standalone Financial Statements\n\n### Opinion\n\n1. We have audited the accompanying standalone financial statements of ICICI Bank Limited ('the Bank'), which comprise the Standalone Balance Sheet as at 31 March 2024, the Standalone Profit and Loss Account, and Standalone Cash Flow Statement for the year then ended, and notes to the sta… (truncated, 54977 more chars)",
+          "started_at": "2026-05-12T20:25:27.514388+00:00",
+          "duration_seconds": 0.035
+        },
+        {
+          "tool": "get_page_text",
+          "args": {
+            "printed_pages": [
+              249,
+              250,
+              251,
+              252
+            ]
+          },
+          "result_preview": "--- Printed page 249 ---\nIntegrated Report\n\nStatutory Reports\n\nFinancial Statements\n\n# INDEPENDENT AUDITOR'S REPORT\n\nTo the Members of\n\n**ICICI Bank Limited**\n\n## Report on the Audit of the Consolidated Financial Statements\n\n### Opinion\n\n1. We have audited the accompanying consolidated financial statements of ICICI Bank Limited (hereinafter referred to as the 'Bank' or 'Holding Company') and its subsidiaries (Holding Company and its subsidiaries together referred to as 'the Group'), and its asso… (truncated, 29529 more chars)",
+          "started_at": "2026-05-12T20:25:27.518123+00:00",
+          "duration_seconds": 0.022
+        }
+      ]
+    },
+    {
+      "scope_id": "plan_sections_call_2",
+      "kind": "section_planner",
+      "parent_scope_id": "gra_agent_call_2",
+      "started_at": "2026-05-12T20:24:31.925641+00:00",
+      "ended_at": "2026-05-12T20:24:39.595930+00:00",
+      "tokens": {
+        "input": 16232,
+        "output": 315,
+        "total": 16547
+      },
+      "llm_calls": 1,
+      "tool_calls": []
+    },
+    {
+      "scope_id": "section_worker_call_3",
+      "kind": "section_worker",
+      "parent_scope_id": "gra_agent_call_2",
+      "started_at": "2026-05-12T20:24:43.319861+00:00",
+      "ended_at": "2026-05-12T20:25:09.538149+00:00",
+      "tokens": {
+        "input": 16246,
+        "output": 1264,
+        "total": 17510
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "get_section_full_tool",
+          "args": {},
+          "result_preview": "{\"doc_id\": \"ICICI Bank Report\", \"section_name\": \"Independent Auditors' Report – Financial Statements\", \"chapter_name\": \"FINANCIAL STATEMENTS\", \"contradictions\": [], \"decisions\": [{\"text\": \"The auditors determined NPA identification and provisioning to be a Key Audit Matter and communicated it in their report.\", \"decision_type\": \"governance\", \"actors\": [\"M S K A & Associates\", \"KKC & Associates LLP\"], \"affected_entities\": [\"ICICI Bank Limited\"], \"effective_date\": \"FY24\", \"supporting_quote\": \"we h… (truncated, 56039 more chars)",
+          "started_at": "2026-05-12T20:24:45.496130+00:00",
+          "duration_seconds": 0.009
+        },
+        {
+          "tool": "grep_in_section_tool",
+          "args": {
+            "pattern": "non-performing"
+          },
+          "result_preview": "[{\"printed_page\": 144, \"physical_page\": 145, \"line\": 6451, \"snippet\": \"| <b>Identification and provisioning of non-performing advances (NPA):</b><br>Total Loans and Advances (Net of Provision) as at 31 March 2024: ₹ 11,844,063,894 (in '000s)<br>Provision for NPA as at 31 March 2024: ₹ 219,358,846 (in '000s)<br><i>(Refer Sch…\"}, {\"printed_page\": 144, \"physical_page\": 145, \"line\": 6453, \"snippet\": \"…assification & Provisioning (\\\"IRAC\\\") and other circulars and directives issued by the RBI from ti… (truncated, 700 more chars)",
+          "started_at": "2026-05-12T20:24:45.503043+00:00",
+          "duration_seconds": 0.002
+        }
+      ],
+      "section_name": "Independent Auditors' Report – Financial Statements"
+    },
+    {
+      "scope_id": "section_worker_call_4",
+      "kind": "section_worker",
+      "parent_scope_id": "gra_agent_call_2",
+      "started_at": "2026-05-12T20:24:43.322468+00:00",
+      "ended_at": "2026-05-12T20:25:24.863258+00:00",
+      "tokens": {
+        "input": 20644,
+        "output": 1825,
+        "total": 22469
+      },
+      "llm_calls": 2,
+      "tool_calls": [
+        {
+          "tool": "get_section_full_tool",
+          "args": {},
+          "result_preview": "{\"doc_id\": \"ICICI Bank Report\", \"section_name\": \"Independent Auditors' Report – Consolidated Financial Statements\", \"chapter_name\": \"FINANCIAL STATEMENTS\", \"contradictions\": [], \"decisions\": [{\"text\": \"M S K A & Associates and KKC & Associates LLP jointly issued the Independent Auditor's Report and Annexure A on internal financial controls over consolidated financial statements, signed 27 April 2024 in Mumbai.\", \"decision_type\": \"governance\", \"actors\": [\"M S K A & Associates\", \"KKC & Associates … (truncated, 73573 more chars)",
+          "started_at": "2026-05-12T20:24:45.125494+00:00",
+          "duration_seconds": 0.003
+        }
+      ],
+      "section_name": "Independent Auditors' Report – Consolidated Financial Statements"
+    }
+  ],
+  "totals": {
+    "tokens": {
+      "input": 231692,
+      "output": 16703,
+      "total": 248395
+    },
+    "llm_calls": 26,
+    "tool_calls_by_name": {
+      "global_reasoning": 2,
+      "search": 1,
+      "plan_sections": 2,
+      "run_section_worker": 4,
+      "grep": 2,
+      "get_page_text": 3,
+      "get_section_full_tool": 4,
+      "get_segments_meta_tool": 1,
+      "grep_in_section_tool": 6,
+      "get_page_text_tool": 2
+    },
+    "scope_counts": {
+      "supervisor": 1,
+      "gra": 2,
+      "search_agent": 1,
+      "section_planner": 2,
+      "section_worker": 4
+    }
+  }
+}
