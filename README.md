@@ -323,19 +323,24 @@ OCR noise is handled here, not in the QnA pipeline — by the time a question is
 ## Running the pipeline
 
 ```bash
+# 0. (One-time) From the repo root, set up the shared environment and
+#    install all dependencies for both pipelines.
+cp .env.example .env  # fill in MODEL_NAME, LITELLM_PROXY_URL, MONGODB_URI, ...
+pip install -r requirements.txt
+
 # 1. (One-time per document) Run the doc-processing pipeline to populate
 #    the preprocessed markdown + MongoDB aggregates.
 cd doc-processing-pipeline
-cp .env.example .env  # fill in MODEL_NAME, LITELLM_PROXY_URL, MONGODB_URI, ...
-pip install -r requirements.txt
 langgraph dev
 
 # 2. Run the QnA pipeline against the prepared document.
 cd ../qna-pipeline
-cp .env <fill in values>
-pip install -r ../requirements.txt
 langgraph dev
 ```
+
+Both pipelines load the same root-level `.env` and share the same
+`requirements.txt` at the repo root — there are no per-pipeline env files
+or dependency files anymore.
 
 **Invocation shape:**
 
