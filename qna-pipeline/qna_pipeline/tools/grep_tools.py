@@ -14,6 +14,7 @@ from config.settings import GREP_MATCH_LIMIT
 from qna_pipeline.db.markdown import PageNotFound
 from qna_pipeline.db.markdown import get_page_text as get_page_text_impl
 from qna_pipeline.db.markdown import grep as grep_impl
+from qna_pipeline.db.markdown import list_pages as list_pages_impl
 
 log = logging.getLogger(__name__)
 
@@ -101,3 +102,28 @@ def make_grep_tools(document_id: str) -> tuple[Callable, Callable]:
             return f"[error: {e}]"
 
     return grep, get_page_text
+
+
+def make_list_pages_tool(document_id: str) -> Callable:
+    """Build a `list_pages` tool scoped to `document_id`."""
+
+    @tool
+    async def list_pages() -> str:
+        """Return a small descriptor of this document's page numbering:
+        printed-page min/max, total mapped count, physical-page count,
+        and whether the document has unmapped pages (front matter,
+        inserts) where printed numbering may have gaps.
+
+        Use this once at the start of a lookup task if you need to
+        sanity-check a user-supplied printed page number or pick a
+        sensible `pages_filter` window. Cheap — ~30 tokens of output.
+
+        Returns:
+            JSON object with keys: printed_page_min, printed_page_max,
+            printed_page_count, physical_page_count, has_unmapped_pages.
+        """
+        log.info(f"[list_pages:{document_id}]")
+        info = await list_pages_impl(document_id)
+        return json.dumps(info, ensure_ascii=False, default=_json_default)
+
+    return list_pages

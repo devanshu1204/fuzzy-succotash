@@ -50,6 +50,10 @@ GRA_INNER_RECURSION_LIMIT = int(os.getenv("GRA_INNER_RECURSION_LIMIT", "25"))
 WORKER_INNER_RECURSION_LIMIT = int(os.getenv("WORKER_INNER_RECURSION_LIMIT", "15"))
 DOCUMENT_AGENT_RECURSION_LIMIT = int(os.getenv("DOCUMENT_AGENT_RECURSION_LIMIT", "15"))
 
+# Lookup agent (orchestrator + parallel workers)
+LOOKUP_INNER_RECURSION_LIMIT = int(os.getenv("LOOKUP_INNER_RECURSION_LIMIT", "20"))
+LOOKUP_WORKER_PARALLEL_CAP = int(os.getenv("LOOKUP_WORKER_PARALLEL_CAP", "8"))
+
 # Token-count encoding (matches doc-processing-pipeline for consistency)
 TOKEN_COUNT_ENCODING = os.getenv("TOKEN_COUNT_ENCODING", "cl100k_base")
 
@@ -58,6 +62,10 @@ PAGEINDEX_API_KEY = os.getenv("PAGEINDEX_API_KEY")
 
 # Graph
 GRAPH_RECURSION_LIMIT = int(os.getenv("GRAPH_RECURSION_LIMIT", "50"))
+
+# Supervisor prompt version: "v1" (default, original) or "v2" (refined
+# routing — explicit tiebreaker, failover, few-shot examples, DON'Ts).
+SUPERVISOR_PROMPT_VERSION = os.getenv("SUPERVISOR_PROMPT_VERSION", "v1")
 
 # Logging
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")

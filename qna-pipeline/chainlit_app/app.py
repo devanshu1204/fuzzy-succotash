@@ -35,6 +35,9 @@ from qna_pipeline.pipeline import app as qna_app  # noqa: E402
 
 from chainlit_app.event_renderer import EventRenderer  # noqa: E402
 from chainlit_app.trace_recorder import TraceRecorder  # noqa: E402
+# Import-side-effect: registers @cl.data_layer and applies the SQLite schema
+# under qna-pipeline/chainlit_data/ so conversations persist across restarts.
+from chainlit_app import data_layer  # noqa: E402, F401
 
 log = logging.getLogger(__name__)
 
@@ -44,6 +47,21 @@ _TRACES_DIR = _PIPELINE_DIR.parent / "Agent-Traces"
 
 # Mirrors `_PAYLOAD_KEYS` in qna_pipeline/nodes/supervisor_agent.py.
 _PAYLOAD_KEYS = {"question", "document_id", "pageindex_doc_id", "run_id", "user_id"}
+
+
+# ---------------------------------------------------------------------------
+# Auth — permissive local-dev mode
+# ---------------------------------------------------------------------------
+# Chainlit's data layer requires a user identifier to scope threads in the
+# sidebar; without auth, list_threads() raises and the sidebar stays empty.
+# We accept any non-empty username so multiple identifiers can coexist on the
+# same local DB (log in as "dev", "alice", etc.); password is ignored.
+
+@cl.password_auth_callback
+def auth_callback(username: str, _password: str) -> Optional[cl.User]:
+    if not (username or "").strip():
+        return None
+    return cl.User(identifier=username.strip())
 
 
 # ---------------------------------------------------------------------------
@@ -164,8 +182,8 @@ async def on_message(message: cl.Message) -> None:
     final_answer = trace.get("final_answer") or final_answer or "_(no final answer produced)_"
 
     # Send the final answer AFTER the stream finishes so it lands below the
-    # nested tool steps that streamed in during the run, then the token table
-    # below that.
+    # nested tool/LLM steps that streamed in during the run, then the token
+    # table below that.
     await cl.Message(author="Modus", content=final_answer).send()
     await cl.Message(
         author="Modus",

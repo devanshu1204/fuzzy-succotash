@@ -51,5 +51,6 @@ llm = LLMWithRetry(
         base_url=LITELLM_PROXY_URL,
         api_key=LITELLM_API_KEY,
         model=MODEL_NAME,
+        streaming=True,
     )
 )

@@ -4,18 +4,32 @@ from typing import Any, Optional
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from config.prompts.supervisor_prompt import SUPERVISOR_PROMPT
+from config.prompts.supervisor_prompt import SUPERVISOR_PROMPT, SUPERVISOR_PROMPT_V2
+from config.settings import SUPERVISOR_PROMPT_VERSION
 from qna_pipeline.state import QnAState
 from qna_pipeline.tools.global_reasoning_tool import global_reasoning
-from qna_pipeline.tools.search_tool import search
+from qna_pipeline.tools.lookup_agent_tool import lookup
 from utils.llm import llm
 
 log = logging.getLogger(__name__)
 
 _llm_with_tools = llm.bind_tools(
-    [global_reasoning, search],
+    [global_reasoning, lookup],
     parallel_tool_calls=False,
 )
+
+if SUPERVISOR_PROMPT_VERSION == "v2":
+    _ACTIVE_SUPERVISOR_PROMPT = SUPERVISOR_PROMPT_V2
+    _ACTIVE_SUPERVISOR_PROMPT_VERSION = "v2"
+else:
+    if SUPERVISOR_PROMPT_VERSION != "v1":
+        log.warning(
+            f"[supervisor] SUPERVISOR_PROMPT_VERSION={SUPERVISOR_PROMPT_VERSION!r} "
+            f"is unknown; falling back to v1."
+        )
+    _ACTIVE_SUPERVISOR_PROMPT = SUPERVISOR_PROMPT
+    _ACTIVE_SUPERVISOR_PROMPT_VERSION = "v1"
+log.info(f"[supervisor] active prompt version: {_ACTIVE_SUPERVISOR_PROMPT_VERSION}")
 
 _PAYLOAD_KEYS = {"question", "document_id", "pageindex_doc_id", "run_id", "user_id"}
 
@@ -94,9 +108,8 @@ def supervisor_agent(state: QnAState) -> dict:
 
     if not existing:
         system_msg = SystemMessage(
-            content=SUPERVISOR_PROMPT.format(
+            content=_ACTIVE_SUPERVISOR_PROMPT.format(
                 document_id=document_id or "<not provided>",
-                pageindex_doc_id=pageindex_doc_id or "<not provided>",
             )
         )
         user_msg = HumanMessage(content=question or "")
@@ -104,9 +117,8 @@ def supervisor_agent(state: QnAState) -> dict:
         to_append = [system_msg, user_msg]
     elif extracted_state and question:
         system_msg = SystemMessage(
-            content=SUPERVISOR_PROMPT.format(
+            content=_ACTIVE_SUPERVISOR_PROMPT.format(
                 document_id=document_id or "<not provided>",
-                pageindex_doc_id=pageindex_doc_id or "<not provided>",
             )
         )
         user_msg = HumanMessage(content=question)

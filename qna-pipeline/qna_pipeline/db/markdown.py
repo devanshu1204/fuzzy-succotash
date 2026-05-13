@@ -327,3 +327,43 @@ async def get_page_text(doc_id: str, printed_pages: list[int]) -> str:
             mapping. (Partial misses are reported in a trailing note.)
     """
     return await asyncio.to_thread(_get_page_text_sync, doc_id, printed_pages)
+
+
+def _list_pages_sync(doc_id: str) -> dict:
+    doc = _load_doc_threadsafe(doc_id)
+    printed = doc.printed_to_physical
+    physical_count = len(doc.physical_to_line_range)
+    if not printed:
+        return {
+            "printed_page_min": None,
+            "printed_page_max": None,
+            "printed_page_count": 0,
+            "physical_page_count": physical_count,
+            "has_unmapped_pages": physical_count > 0,
+        }
+    return {
+        "printed_page_min": min(printed),
+        "printed_page_max": max(printed),
+        "printed_page_count": len(printed),
+        "physical_page_count": physical_count,
+        "has_unmapped_pages": physical_count > len(printed),
+    }
+
+
+async def list_pages(doc_id: str) -> dict:
+    """Return a small descriptor of the document's page numbering.
+
+    Cheap orientation tool for the lookup agent: lets it sanity-check a
+    user-supplied printed page number and pick a sensible pages_filter
+    window without grepping blindly.
+
+    Keys:
+        printed_page_min / printed_page_max: extrema of footer-derived
+            printed page numbers (None if the doc has no footer mapping).
+        printed_page_count: number of distinct printed pages mapped.
+        physical_page_count: number of physical pages in the markdown.
+        has_unmapped_pages: True when some physical pages have no printed
+            footer (front matter, inserts, foldouts) — printed numbering
+            may have gaps.
+    """
+    return await asyncio.to_thread(_list_pages_sync, doc_id)

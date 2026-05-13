@@ -6,13 +6,13 @@ from qna_pipeline.nodes.finalize import finalize
 from qna_pipeline.nodes.supervisor_agent import supervisor_agent
 from qna_pipeline.state import QnAState
 from qna_pipeline.tools.global_reasoning_tool import global_reasoning
-from qna_pipeline.tools.search_tool import search
+from qna_pipeline.tools.lookup_agent_tool import lookup
 
 # ---------------------------------------------------------------------------
 # Tool list
 # ---------------------------------------------------------------------------
 
-supervisor_tools = [global_reasoning, search]
+supervisor_tools = [global_reasoning, lookup]
 
 supervisor_tool_node = ToolNode(
     tools=supervisor_tools,

@@ -1,3 +1,9 @@
+# DORMANT: unbound from the supervisor on 2026-05-13 in favour of the
+# new lookup agent (qna_pipeline/tools/lookup_agent_tool.py). To revert,
+# re-import `search` in qna_pipeline/pipeline.py and qna_pipeline/nodes/
+# supervisor_agent.py and add it back to `supervisor_tools` /
+# `bind_tools(...)`.
+
 from typing import Annotated
 
 from langchain_core.messages import HumanMessage

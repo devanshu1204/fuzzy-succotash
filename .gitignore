@@ -13,3 +13,6 @@ Agent-Traces/*.json
 # Chainlit local files
 .chainlit/
 .files/
+
+# Chainlit local data layer (SQLite chat history + future element storage)
+qna-pipeline/chainlit_data/
