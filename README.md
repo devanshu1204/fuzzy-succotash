@@ -336,11 +336,22 @@ langgraph dev
 # 2. Run the QnA pipeline against the prepared document.
 cd ../qna-pipeline
 langgraph dev
+
+# 3. (Optional) Start the Chainlit UI to chat with the QnA pipeline
+#    in a browser instead of the LangGraph dev studio.
+chainlit run chainlit_app/app.py -w
 ```
 
 Both pipelines load the same root-level `.env` and share the same
 `requirements.txt` at the repo root — there are no per-pipeline env files
 or dependency files anymore.
+
+**Chainlit UI** opens on `http://localhost:8000` by default. The app reads
+`CHAINLIT_AUTH_SECRET` from the root-level `.env` for cookie signing — make
+sure it is set (any long random string works; generate one with
+`chainlit create-secret` if you need a fresh value). Conversation history
+is persisted to `qna-pipeline/chainlit_data/` (SQLite) via the local data
+layer, so chats survive restarts.
 
 **Invocation shape:**
 
